@@ -1,0 +1,69 @@
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Open+Sans+Condensed:700|Open+Sans:800';
+
+body{
+	font-family: "Crimson Text", serif;
+	background-color: #e6ffff;
+}
+
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3em;
+    margin-bottom: .4em;
+    color:#283744;
+}
+
+h2{
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2em;
+    margin-bottom: .5em;
+    color: #BB1515;
+    font-size: 1.6em;
+}
+
+h3{
+    font-family: "Crimson Text:700", serif;
+    font-size: 1.2em;
+    margin: 1em 0 0 0;
+}
+
+h4{
+	font-family: "Crimson Text:700", serif;
+	margin: 1em 0 .5em 0;
+}
+
+header{
+    margin: 1em;
+}
+
+aside{
+    margin: 1em;
+}
+
+article{
+    margin-left: 2em;
+}
+
+.description{
+    margin-bottom: 1em;
+    color:#385A72;
+}
+
+.header-description{
+    margin-left: 1em;
+}
+
+ul{
+    margin: 0 0 1em 0;
+}
+
+li{
+	margin: .5em 0 .5em 0;
+}
+
+.name{
+	color: #ff0000;
+}
+
+.special-note{
+	color: #9900cc;
+}
