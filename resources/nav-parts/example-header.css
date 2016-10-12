@@ -1,0 +1,47 @@
+/*
+  ====================================
+   These styles are page specific and you would need to change depending on how your page is laid out.
+  ====================================
+*/
+
+.page-header .logo {
+    float: left;
+    width: 25%;
+}
+
+.page-header h1 {
+    float: left;
+    padding-left: 1em;
+    width: 70%;
+}
+
+/*
+  ====================================
+   These styles are page specific and you would need to change depending on how your page is laid out.
+  ====================================
+*/
+
+.page-header .logo {
+    float: left;
+    width: 25%;
+}
+
+.page-header h1 {
+    float: left;
+    padding-left: 1em;
+    width: 70%;
+}
+
+.menu {
+    clear: both;
+}
+
+.main-content {
+    clear: both;
+    float: none;
+}
+
+.main-content {
+    clear: both;
+    float: none;
+}
