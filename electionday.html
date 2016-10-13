@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Election Day! Get out the vote!</title>
+    <title>Election Day</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -21,11 +21,11 @@
             <div class="logo">
                 <img src="http://placehold.it/200x200" alt="placeholder logo">
             </div>
-            <h1>Get Out The Vote</h1>
+            <h1>Election Day</h1>
             <h2>2016 Elections</h2>
         </header>
 
-        <a name="top"></a>
+        <a id="top"></a>
 
         <div class="menu">
             <a href="#" id="menu_button">Menu</a>
@@ -43,13 +43,20 @@
             </ul>
         </nav>
 
-       <a href="#top">Top</a>
-        <footer>
-            <p>&copy; Get Out The Vote NYC 2016</p>
-        </footer>
+        <article class="main-content">
+            <header class="content-header">
+                <h2>Main Content</h2>
+            </header>
+        </article>
 
+        <a href="#top">Top</a>
+        <footer>
+            <p class="copyright">&copy; Get Out The Vote NYC 2016</p>
+            <p class="about"><a href="about.html">About this Site</a></p>
+        </footer>
     </div>
     <!--end .container-->
+
 
 
 
@@ -68,6 +75,39 @@
     <script>
         jQuery(document).ready(function ($) {
             // Your jQuery code here, using $ to refer to jQuery.
+            /*
+               This is the code to slide the main navigation up and down.
+            */
+
+            $('#menu_button').click(function (evt) {
+                console.log('evt', evt);
+                evt.preventDefault();
+                $('#main_nav').slideToggle();
+            }); //end menu_button
+
+
+            //this code taken from Sebastien on Stackoverflow: http://stackoverflow.com/questions/6461300/triggering-jquery-with-css-media-queries
+            //it's been rearranged slightly
+            //leave the lines below and then write your code in the doneResizing function below
+            doneResizing();
+            var id;
+            $(window).resize(function () {
+                clearTimeout(id);
+                id = setTimeout(doneResizing, 0);
+            });
+
+            function doneResizing() {
+                //this code requires that you have Modernizr included BEFORE this file. Here is modernizr: http://modernizr.com/
+                //the trick with min-width media queries is that you need to start from your largest and go down. In the else at the end you can write  js for any size below your smallest min-width.
+
+                if (Modernizr.mq('screen and (min-width:45em)')) {
+                    $('#main_nav').show(); //make sure it is showing at larger sizes
+                } else {
+                    //Your code goes here for screens below 45em in this example.
+                    $('#main_nav').hide(); //make sure hiding at smaller sizes
+                }
+            } //end doneResizing
+
         });
     </script>
 </body>
