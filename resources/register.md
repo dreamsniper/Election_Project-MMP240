@@ -3,15 +3,15 @@
 
 To be able to vote in the November 8, 2016 General Election you must be registered to vote. This page has information on how to register to vote in New York State. If you live in another state try using the League of Women Voters registration tool: http://www.vote411.org/register.
 
-DEADLINE: Friday, October 14, 2016. Your Voter Registration Form must be submitted to the NYS Board of Elections by October 14.
+**DEADLINE**: Friday, October 14, 2016. Your Voter Registration Form must be submitted to the NYS Board of Elections by October 14.
 
-Changing Your Registration
+### Changing Your Registration
 You also need to complete the Registration process outlined below if any of the following has changed:
-Your Address (since the last time you registered)
-Your Party Affiliation (changing from one political party to another)
-Your Name (since you last voted)
+* Your Address (since the last time you registered)
+* Your Party Affiliation (changing from one political party to another)
+* Your Name (since you last voted)
 
-Elibibility
+### Eligibility
 
 To register in New York State for the 2016 General Election you must meet the following criteria:
 
@@ -31,7 +31,7 @@ If you are not sure whether you are registered to vote follow this link and ente
 https://voterlookup.elections.state.ny.us/votersearch.aspx
 
 
-How to Register to Vote
+## How to Register to Vote
 
 In New York State there are three ways to register to vote:
 
