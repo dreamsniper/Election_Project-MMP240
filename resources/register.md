@@ -25,7 +25,7 @@ To register in New York State for the 2016 General Election you must meet the fo
 The above qualifications were taken from the New York State Board of Elections web site: http://www.elections.ny.gov/VotingRegister.html
 
 
-Check If and Where You Are Registered
+### Check If and Where You Are Registered
 
 If you are not sure whether you are registered to vote follow this link and enter your information: 
 https://voterlookup.elections.state.ny.us/votersearch.aspx
@@ -39,33 +39,34 @@ In New York State there are three ways to register to vote:
 2. Mail-in
 3. Online
 
-In-Person Registration
+### Option 1: In-Person Registration
 
-Deadline
-You must submit your application by October 14, 2016. 
+#### Deadline
+You must submit your application by **October 14, 2016**. 
 
-Special Note: if you are honorably discharged from the US Military or you become a naturalized Citizen of the US after the October 14 deadline, then you may register at one of the Board of Elections offices (listed below) until October 29, 2016.
+**Special Note**: if you are honorably discharged from the US Military or you become a naturalized Citizen of the US after the October 14 deadline, then you may register at one of the Board of Elections offices (listed below) until October 29, 2016.
 
-What to Bring
+****What to Bring****
 
-* Identification. in order to verify your identity you need one of the following: driver's license, non-diver ID, Social Security Number. If you don't have one of those bring a valid photo ID (CUNY Student ID counts) and a document that shows your name and address (such as: paycheck, government check, utility bill, bank statement).
-* Blue or Black ink pen (not required but just in case)
-* The Voter Registration form (not required but just in case)
+* **Identification**. in order to verify your identity you need one of the following: driver's license, non-diver ID, Social Security Number. If you don't have one of those bring a valid photo ID (CUNY Student ID counts) and a document that shows your name and address (such as: paycheck, government check, utility bill, bank statement).
+* **Blue or Black ink pen** (not required but just in case)
+* **The Voter Registration form** (not required but just in case)
 
 
-The Voter Registration Form: <a href="http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf">download here</a>. While these agencies should have the Voter Registration Form, if you can, bring your own just in case.
+**The Voter Registration Form**: [download here](http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf). While these agencies should have the Voter Registration Form, if you can, bring your own just in case.
 
+#### Where To Go
 There are a number of official locations where you can walk in and register to vote:
 
-Department of Motor Vehicles
-To find a DMV near you visit this page: <a href="https://dmv.ny.gov/offices">https://dmv.ny.gov/offices</a>
+* Department of Motor Vehicles
+To find a DMV near you visit this page: [https://dmv.ny.gov/offices](https://dmv.ny.gov/offices)
 
 
-County Boards of Elections
+* County Boards of Elections
 
-Borough Board locations: <a href="http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=New+York">Manhattan</a>, <a href="http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Kings">Brooklyn</a>, <a href="http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Queens">Queens</a>, <a href="http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Bronx">Bronx</a>, <a href="http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Richmond">Staten Island</a>
+Borough Board locations: [Manhattan](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=New+York), [Brooklyn](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Kings),[Queens](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Queens), [Bronx](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Bronx), [Staten Island](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Richmond)
 
-View full <a href="http://www.elections.ny.gov/CountyBoards.html">NYS County Board Map</a>
+View full [NYS County Board Map](http://www.elections.ny.gov/CountyBoards.html)
 
 NYS Agency Offices
 Through the National Voter Registration Act you may also register to vote when you use services at various state agencies. For a list visit this link: <a href="http://www.elections.ny.gov/NVRA.html">http://www.elections.ny.gov/NVRA.html</a>
