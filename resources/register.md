@@ -58,18 +58,13 @@ You must submit your application by **October 14, 2016**.
 #### Where To Go
 There are a number of official locations where you can walk in and register to vote:
 
-* Department of Motor Vehicles
-To find a DMV near you visit this page: [https://dmv.ny.gov/offices](https://dmv.ny.gov/offices)
+* **Department of Motor Vehicles**, To find a DMV near you visit this page: [https://dmv.ny.gov/offices](https://dmv.ny.gov/offices)
 
 
-* County Boards of Elections
+* **County Boards of Elections**
+    Borough Board locations: [Manhattan](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=New+York), [Brooklyn](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Kings),[Queens](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Queens), [Bronx](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Bronx), [Staten Island](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Richmond), View full [NYS County Board Map](http://www.elections.ny.gov/CountyBoards.html)
 
-Borough Board locations: [Manhattan](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=New+York), [Brooklyn](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Kings),[Queens](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Queens), [Bronx](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Bronx), [Staten Island](http://www.elections.ny.gov:8080/plsql_browser/county_boards?county_in=Richmond)
-
-View full [NYS County Board Map](http://www.elections.ny.gov/CountyBoards.html)
-
-NYS Agency Offices
-Through the National Voter Registration Act you may also register to vote when you use services at various state agencies. For a list visit this link: <a href="http://www.elections.ny.gov/NVRA.html">http://www.elections.ny.gov/NVRA.html</a>
+* **NYS Agency Offices**, Through the National Voter Registration Act you may also register to vote when you use services at various state agencies. For a list visit this link: [http://www.elections.ny.gov/NVRA.html](http://www.elections.ny.gov/NVRA.html)
 
 
 
