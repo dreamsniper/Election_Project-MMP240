@@ -1,12 +1,12 @@
 
 # Election Date: November 8, 2016
 
-Poll Hours: _6am&ndash;9pm_   
+**Poll Hours**: _6am&ndash;9pm_   
 In New York all poll locations should be open for these hours.
 
 ## Poll Locations
 
-https://nyc.pollsitelocator.com/search
+[https://nyc.pollsitelocator.com/search](https://nyc.pollsitelocator.com/search)
 
 This Poll Site Locator Tool not only tells you where your polling location is based on your address, but it also shows you your local, state and national districts.
 
@@ -17,7 +17,7 @@ Remember to write down your Election/Assembly District number. Often poll locati
 If you cannot make it to the polls, visit this site for information about how to cast an absentee ballot.
 [https://ny.secureballotusa.com/NY_loginSelection.action](https://ny.secureballotusa.com/NY_loginSelection.action)
 
-### **Absentee ballots have the following deadlines:
+### Absentee ballots have the following deadlines:
 
 * **November 1**: Last day to postmark an application or letter of application by mail for an absentee ballot.
 	* **Application Ballot Form in English**: http://www.elections.ny.gov/NYSBOE/download/voting/Absentee06152010.pdf
@@ -27,19 +27,19 @@ If you cannot make it to the polls, visit this site for information about how to
 * **November 8**: Last day to deliver ballot IN-PERSON to the local board of elections (by someone other than the voter).
 
 ## Get Involved
-**Become a Poll Worker** 
-* Work at the polls on election day for the NY Board of Elections: http://www.elections.ny.gov/BecomePollworker.html
-* Poll Worker Positions: http://www.vote.nyc.ny.us/html/workers/positions.shtml
+### Become a Poll Worker 
+* **Work at the polls on election day for the NY Board of Elections**: []()http://www.elections.ny.gov/BecomePollworker.html
+* **Poll Worker Positions**: http://www.vote.nyc.ny.us/html/workers/positions.shtml
 
-**CUNY Poll Worker Initiative**. If you are a CUNY Student you can work as an inspector or interpreter on Election Day. You can earn $100 for working on election day and $100 for attending training and passing the exam. [Click here](http://www2.cuny.edu/employment/student-jobs/jobs/poll-worker-initiative/) for more information.
+### CUNY Poll Worker Initiative 
+If you are a CUNY Student you can work as an inspector or interpreter on Election Day. You can earn $100 for working on election day and $100 for attending training and passing the exam. [Click here](http://www2.cuny.edu/employment/student-jobs/jobs/poll-worker-initiative/) for more information.
 
-**NYC Board of Elections Volunteer Opportunities**: https://www.volunteermatch.org/search/org306545.jsp#opportunities_tab
-
+**NYC Board of Elections Volunteer Opportunities**: [https://www.volunteermatch.org/search/org306545.jsp#opportunities_tab](https://www.volunteermatch.org/search/org306545.jsp#opportunities_tab)
 
 ## More Information
 
-* NYC Board of Elections Voting Day Page: http://vote.nyc.ny.us/html/voters/day.shtml
-* New York City Campaign Finance Board Voter Registration Guide (only available after October 25, 2016). http://www.nyccfb.info/nyc-votes/voter-guide
-* How to Mark Your Ballot: http://vote.nyc.ny.us/html/newway_en/using_scanner.shtml
-* Voting Maching Information: https://www.elections.ny.gov/VotingMachines.html
-* Military and Overseas Voters: https://www.elections.ny.gov/VotingMilitaryFed.html
+* **NYC Board of Elections Voting Day Page**: [http://vote.nyc.ny.us/html/voters/day.shtml](http://vote.nyc.ny.us/html/voters/day.shtml)
+* **New York City Campaign Finance Board Voter Registration Guide** (only available after _October 25, 2016_). [http://www.nyccfb.info/nyc-votes/voter-guide](http://www.nyccfb.info/nyc-votes/voter-guide)
+* **How to Mark Your Ballot**: [http://vote.nyc.ny.us/html/newway_en/using_scanner.shtml](http://vote.nyc.ny.us/html/newway_en/using_scanner.shtml)
+* **Voting Maching Information**:[ https://www.elections.ny.gov/VotingMachines.html](https://www.elections.ny.gov/VotingMachines.html)
+* **Military and Overseas Voters**: [https://www.elections.ny.gov/VotingMilitaryFed.html](https://www.elections.ny.gov/VotingMilitaryFed.html)
