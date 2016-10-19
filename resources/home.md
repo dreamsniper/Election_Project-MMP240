@@ -1,19 +1,19 @@
+# Dates
+## General Election: November 8, 2016
 
+**Registration Deadline**: Friday, _October 14, 2016_
 
-Dates
-General Election: November 8, 2016
+**Third Presidential Debate**: Wednesday, _October 19, 2016_   
+* It will be on all of the major networks (ABC, NBC, Fox, CBS, MSNBC, Fox News, Fox Business, CNN, Univision, Telemundo, and C-SPAN), 
+* online livestreamed on Twitter http://debates.twitter.com, 
+* Facebook and YouTube and on radio WNYC 93.9 FM or http://www.wnyc.org/
 
-Registration Deadline: Friday, October 14, 2016
+[How to Register](register.html)
 
-Third Presidential Debate: Wednesday, October 19, 2016
-It will be on all of the major networks (ABC, NBC, Fox, CBS, MSNBC, Fox News, Fox Business, CNN, Univision, Telemundo, and C-SPAN), online livestreamed on Twitter http://debates.twitter.com, Facebook and YouTube and on radio WNYC 93.9 FM or http://www.wnyc.org/
+[Voting Information](electionday.html)
 
-How to Register
+[Information about Candidates](candidates.html)
 
-Voting Information
+[Upcoming Events](events.html)
 
-Information about Candidates
-
-Upcoming Events
-
-Election Resources
+[Election Resources](resources.html)
