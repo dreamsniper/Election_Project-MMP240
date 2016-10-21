@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Open+Sans+Condensed:700|Open+Sans:800';
 body {
     font-family: "Crimson Text", serif;
-    background-color: #e6ffff;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -40,6 +40,7 @@ aside {
 
 article {
     margin-left: 2em;
+    background-color: #e6ffff;
 }
 
 .description {

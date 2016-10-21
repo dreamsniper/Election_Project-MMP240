@@ -123,6 +123,7 @@ h6 {
     /*change to add a proper font stack */
 }
 
+
 /*These are used to display text like pre-formatted text and code samples*/
 
 pre,
@@ -164,7 +165,7 @@ textarea {
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Open+Sans+Condensed:700|Open+Sans:800';
 body {
     font-family: "Crimson Text", serif;
-    background-color: #e6ffff;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -228,8 +229,10 @@ aside {
 article {
     margin-left: 2em;
     line-height: 1.3em;
-    padding: .5em;
-     color: black;
+    padding: 1.3em;
+    font-size: 1em;
+    color: black;
+    background-color: #e6ffff;
 }
 
 .description {
@@ -241,7 +244,7 @@ ul {
     font-size: 1em;
     margin: 0 0 1em 0;
     line-height: 1.3em;
-     padding: .5em;
+    padding: .5em;
 }
 
 li {
@@ -251,9 +254,14 @@ li {
 .name {
     color: #ff0000;
 }
+
 footer {
     line-height: 1.3em;
-     padding: .5em;
-     color: darkblue;
+    padding: .5em;
+    color: darkblue;
     margin: 1em;
+}
+
+.menu {
+    margin: 1.5em;
 }
