@@ -98,7 +98,7 @@ This will set the default for the entire site.
 html {
     font-size: 1em;
     font-family: 'Crimson Text', 'Oswald', 'Francois One', sans-serif;
-    margin: 1.414em 0 0.5em;
+    margin: 1.414em 0 0 .5em;
     font-weight: inherit;
     line-height: 1.2em;
     font-size: 1em;
@@ -130,8 +130,8 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: sans-serif;
-    font-size: 100%;
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 1em;
     line-height: 1.15;
     margin: 0;
 }
@@ -151,6 +151,9 @@ body {
 
 p {
    margin: 0 0 1.3em 0;
+   font-family: 'Crimson Text', 'Times New Roman', serif;
+   line-height: 1em;
+   color: #000000;
 }
 
 h1 {
@@ -174,7 +177,7 @@ h2 {
 
 h3 {
     font-family: 'Francois One', sans-serif;
-    margin: 1.414em 0 0 .5em;
+    margin: 1.414em 0 .5em 0;
     font-weight: inherit;
     line-height: 1.2em;
     font-size: 1.777em;
@@ -182,37 +185,29 @@ h3 {
 }
 
 h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Francois One', sans-serif;
     margin: 1.414em 0 0 0;
     font-weight: inherit;
     line-height: 1.2em;
-    font-size: 1.333em;
+    font-size: 1em;
     padding: .5em 0 .5em 0;
     color: #BB1515;
 }
 
 h5 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Francois One', sans-serif;
     margin: 1.414em 0 0.5em;
-    font-size: 1em;
+    font-size: .75em;
     line-height: 1.2em;
     color: #BB1515;
 }
 
 h6 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
+    font-family: 'Francois One', sans-serif;
+    font-size: .5em;
     line-height: 1;
     margin: 0;
     padding: 0;
-}
-
-header {
-    margin: 1em;
-}
-
-aside {
-    margin: 1em;
 }
 
 article {
@@ -228,6 +223,7 @@ article h1, article h2 {
     margin: 0 0 .5em 0;
     line-height: 1.2em;
 }
+
 .description {
     margin-bottom: 1em;
     color: #385A72;
@@ -235,16 +231,17 @@ article h1, article h2 {
 
 ul {
     font-size: 1em;
-    margin: 0 0 1em 0;
-    line-height: 1.3em;
-    padding: .5em;
+    margin: 0 0 1em 1em;
+    line-height: 1.2em;
 }
 
 li {
-    margin: .5em 0 .5em 0;
+    margin: .5em 0 .5em 1em;
 }
 
 .name {
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
     color: #ff0000;
 }
 
