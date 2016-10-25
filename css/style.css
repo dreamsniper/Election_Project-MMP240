@@ -228,7 +228,7 @@ article {
     background-color: #e6ffff;
 }
 
-article h1, h2 {
+article h1,article h2 {
     margin: 0 0 0 0;
     line-height: 1.2em;
     padding: .2em 0 .2em 0;
