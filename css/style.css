@@ -173,35 +173,35 @@ h2 {
 }
 
 h3 {
-    font-family: 'Oswald', sans-serif;
+     font-family: 'Francois One', sans-serif;
     margin: 1.414em 0 0.5em;
     font-weight: inherit;
     line-height: 1.2em;
     font-size: 1.777em;
-    color: #BB1515;
+    color: #8918b2;
 }
 
 h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Francois One', sans-serif;
     margin: 1.414em 0 0 0;
     font-weight: inherit;
     line-height: 1.2em;
-    font-size: 1.333em;
+    font-size: 1em;
     padding: .5em 0 .5em 0;
     color: #BB1515;
 }
 
 h5 {
-    font-family: 'Oswald', sans-serif;
+   font-family: 'Francois One', sans-serif;;
     margin: 1.414em 0 0.5em;
-    font-size: 1em;
+    font-size: .75em;
     line-height: 1.2em;
     color: #BB1515;
 }
 
 h6 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
+    font-family: 'Francois One', sans-serif;
+    font-size: .5em;
     line-height: 1;
     margin: 0;
     padding: 0;
