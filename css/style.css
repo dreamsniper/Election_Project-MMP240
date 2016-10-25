@@ -220,7 +220,7 @@ aside {
 }
 
 article {
-    margin-left: 2em;
+    margin: 1em auto 1em auto;
     line-height: 1.3em;
     padding: 1.3em;
     font-size: 1em;
@@ -229,11 +229,10 @@ article {
 }
 
 article h1, article h2 {
-    margin: 0 0 0 0;
+    margin: 0 0 .5em 0;
     line-height: 1.2em;
     padding: .2em 0 .2em 0;
 }
-
 .description {
     margin-bottom: 1em;
     color: #385A72;
