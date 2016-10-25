@@ -164,14 +164,15 @@ h1 {
     color: #283744;
 }
 
-h2 {
+h1 {
     font-family: 'Oswald', sans-serif;
-    margin: 1.414em 0 0.5em;
+    font-size: 3.2em;
+    margin: 1.414em 0 0 .5em;
+    margin-top: 0;
     font-weight: inherit;
     line-height: 1.2em;
-    font-size: 2.369em;
     padding: .5em;
-    color: #BB1515;
+    color: #283744;
 }
 
 h3 {
