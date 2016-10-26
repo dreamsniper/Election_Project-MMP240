@@ -96,12 +96,11 @@ Set a default font-family, font-size and line-height in the html
 This will set the default for the entire site.
 */
 html {
-    font-size: 1em;
     font-family: 'Crimson Text', 'Oswald', 'Francois One', sans-serif;
     margin: 1.414em 0 0 .5em;
     font-weight: inherit;
     line-height: 1.2em;
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1em;
 }
 
@@ -263,4 +262,13 @@ footer {
   margin: 0 auto 0 auto;
   height: 200px;
   width: 200px;
+}
+
+.time {
+    color: green;
+    font-size: 1.1em;
+}
+
+a {
+
 }
