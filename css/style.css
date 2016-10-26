@@ -265,6 +265,13 @@ footer {
     margin: 1.5em;
 }
 
+.menu a:link,
+.menu a:visited,
+.menu a:hover,
+.menu a:active{
+    color: white;
+}
+
 .logo {
     display: block;
     position: top;
