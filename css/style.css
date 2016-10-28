@@ -268,7 +268,7 @@ footer {
 .menu a:link,
 .menu a:visited,
 .menu a:hover,
-.menu a:active{
+.menu a:active {
     color: white;
 }
 
@@ -286,25 +286,50 @@ footer {
     font-size: 1.1em;
 }
 
+
 /* unvisited link */
+
 a:link {
-  text-decoration: none;
-  color: blue;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+    text-decoration: none;
+    color: blue;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
+
 /* visited link */
+
 a:visited {
     color: green;
 }
 
+
 /* mouse over link */
+
 a:hover {
     color: hotpink;
 }
 
+
 /* selected link */
+
 a:active {
     color: darkblue;
+}
+
+article img {
+    width: 75%;
+    height: 75%;
+    margin: 1.3em 0 1.3em 0;
+}
+
+.federal,
+.nys {
+    border-width: medium;
+    padding: 1em;
+    background-color: white;
+}
+
+aside {
+    background-color: bisque
 }
