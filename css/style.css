@@ -333,3 +333,20 @@ article img {
 aside {
     background-color: bisque
 }
+
+.eventCalendar,
+.googleCalendar {
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 75%;
+}
+
+.eventCalendar iframe,
+.googleCalendar iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
