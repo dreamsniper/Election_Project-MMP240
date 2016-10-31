@@ -243,11 +243,11 @@ ul {
     line-height: 1.2em;
 }
 
-li {
-    margin: .5em 0 .5em 1em;
+/* li {
+    margin: .5em 0 .5em 0;
     text-decoration: none;
     list-style-type: none;
-}
+} */
 
 footer {
     line-height: 1.3em;
@@ -329,7 +329,7 @@ article img {
 }
 
 aside {
-    background-color: bisque
+  
 }
 
 .eventCalendar,
@@ -358,6 +358,7 @@ aside {
 .candidate-image {
     height: 0;
     overflow: hidden;
+    margin: 0 auto 0 auto;
     padding-bottom: 120%;
 }
 
@@ -369,4 +370,11 @@ aside {
 .party {
     font-weight: 400;
     font-style: italic;
+}
+
+.main-content li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 1em;
 }
