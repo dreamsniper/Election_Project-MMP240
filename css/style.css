@@ -349,3 +349,13 @@ ol {
   padding: 1em;
   line-height: 1.5em;
 }
+
+ul li ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 1em;
+}
+
+ul li ul li {
+  padding: 1em;
+}
