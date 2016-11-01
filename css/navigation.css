@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Francois+One|Oswald:700';
+
 /* ============================
 * Clearfix
 * Modified from: http://nicolasgallagher.com/micro-clearfix-hack/
@@ -44,6 +46,9 @@
 * =============================*/
 
 #main_nav {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 1em;
     clear: both;
     display: none; /*hidden to start */
 }
@@ -57,12 +62,15 @@
 
 #main_nav li a {
     display: block;
+    width: 98%;
     color: #fff;
-    background-color: #555;
+    background-color: #2FB8AC;
+    border: .3em solid lightgreen;
     text-transform: uppercase;
     padding: 0.625em; /* 10px in ems is 10/16 */
     text-decoration: none;
-    border-bottom: 1px solid #eee;
+/*    border-bottom: 1px solid #eee;*/
+    margin-bottom: .2em;
     font-weight: 900;
 }
 
