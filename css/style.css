@@ -239,10 +239,6 @@ footer {
     margin: 1em;
 }
 
-.menu {
-
-}
-
 .menu a:link,
 .menu a:visited,
 .menu a:hover,
@@ -251,13 +247,12 @@ footer {
 }
 
 .logo {
-    display: block;
+    display: inline;
     position: top;
     padding: .5em;
     margin: 0 auto 0 auto;
     height: 200px;
     width: 200px;
-    float: left;
 }
 
 .time {
@@ -359,4 +354,11 @@ ul li ul {
 
 ul li ul li {
   padding: 1em;
+}
+
+@media only screen and (min-width: 45em){
+    h1,
+    h2{
+        text-align: left;
+    }
 }

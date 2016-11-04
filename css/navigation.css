@@ -86,7 +86,6 @@
 
 .menu {
     margin: 1em;
-    float: right;
 }
 
 .menu a {
@@ -123,22 +122,22 @@ It should also be noted that there is only one media query because this CSS move
     }
     #main_nav {
         /* move main_nav to top of the screen */
-        position: relative;
+        position: absolute;
         top: 0;
         left: 0;
 
         /* other main nav styling */
-        width: 92%;
+        width: 100%;
         display: inline;
         overflow: hidden;
-        background-color: #555;
+        background-color: #2FB8AC;
     }
     #main_nav li {
         display: inline;
         line-height: 1em;
     }
     #main_nav li a {
-        float: left;
+        float:left;
         padding: 0.9375em;
         /* 10/16  and  15/16 */
         border-bottom: none;
