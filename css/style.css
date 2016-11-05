@@ -165,6 +165,7 @@ h1 {
     font-size: 3.2em;
     margin: 1.414em 0 0 .5em;
     margin-top: 0;
+    padding: .5em;
     font-weight: inherit;
     line-height: 1.2em;
     color: #283744;
@@ -272,16 +273,21 @@ a:link {
 
 
 /* visited link */
+
 a:visited {
     color: green;
 }
 
+
 /* mouse over link */
+
 a:hover {
     color: hotpink;
 }
 
+
 /* selected link */
+
 a:active {
     color: darkblue;
 }
@@ -293,9 +299,7 @@ a:active {
     background-color: white;
 }
 
-aside {
-  
-}
+aside {}
 
 .eventCalendar,
 .googleCalendar {
@@ -338,27 +342,30 @@ aside {
 }
 
 .main-content ul {
-  padding: 0;
+    padding: 0;
 }
 
 ol {
-  padding: 1em;
-  line-height: 1.5em;
+    padding: 1em;
+    line-height: 1.5em;
 }
 
 ul li ul {
-  margin: 0;
-  padding: 0;
-  margin-left: 1em;
+    margin: 0;
+    padding: 0;
+    margin-left: 1em;
 }
 
 ul li ul li {
-  padding: 1em;
+    padding: 1em;
 }
 
-@media only screen and (min-width: 45em){
+
+/*---- media quary for medium sized screen ----*/
+
+@media only screen and (min-width: 45em) {
     h1,
-    h2{
+    h2 {
         text-align: left;
     }
 }

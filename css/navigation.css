@@ -1,12 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Francois+One|Oswald:700';
-
- ============================
-* Clearfix
-* Modified from: http://nicolasgallagher.com/micro-clearfix-hack/
-* If you already have a clearfix then you can ignore this.
-* =============================*/
-
-
+============================* Clearfix * Modified from: http: //nicolasgallagher.com/micro-clearfix-hack/
+* If you already have a clearfix then you can ignore this. *=============================*/
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -50,7 +44,8 @@
     font-weight: 400;
     font-size: 1em;
     clear: both;
-    display: none; /*hidden to start */
+    display: none;
+    /*hidden to start */
 }
 
 #main_nav ul {
@@ -66,7 +61,8 @@
     background-color: #2FB8AC;
     border: .em solid lightgreen;
     text-transform: uppercase;
-    padding: 0.625em; /* 10px in ems is 10/16 */
+    padding: 0.625em;
+    /* 10px in ems is 10/16 */
     text-decoration: none;
     border-bottom: 1px solid #eee;
     font-weight: 900;
@@ -82,10 +78,13 @@
     background-color: #f90;
 }
 
+
 /* menu button */
 
 .menu {
     margin: 1em;
+    float: right;
+    margin-top: 4.5em;
 }
 
 .menu a {
@@ -101,6 +100,8 @@
     color: #555;
     background-color: #f90;
 }
+
+
 /* ==========================
 *  Media Queries for Main Nav
 *  ========================== */
@@ -125,7 +126,6 @@ It should also be noted that there is only one media query because this CSS move
         position: absolute;
         top: 0;
         left: 0;
-
         /* other main nav styling */
         width: 100%;
         display: inline;
@@ -137,7 +137,7 @@ It should also be noted that there is only one media query because this CSS move
         line-height: 1em;
     }
     #main_nav li a {
-        float:left;
+        float: left;
         padding: 0.9375em;
         /* 10/16  and  15/16 */
         border-bottom: none;
