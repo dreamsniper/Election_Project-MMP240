@@ -350,6 +350,10 @@ ol {
     line-height: 1.5em;
 }
 
+li{
+    margin-bottom: 1em;
+}
+
 ul li ul {
     margin: 0;
     padding: 0;
@@ -368,4 +372,34 @@ ul li ul li {
     h2 {
         text-align: left;
     }
+}
+
+
+/*======================= Prof Stein's additions ========================*/
+.page-section{
+    
+}
+
+.page-sub-section{
+    margin: 1.5em 0 0 0;
+}
+.media-list li{
+    width: 33%;
+    float:left;
+   padding: 2%;
+    list-style-type: none;
+}
+
+.media-box{
+     border: 1px solid red;
+    padding:5px;
+}
+.media-type{
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+footer{
+    background-color: darkblue;
+    color:white;
 }
