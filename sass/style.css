@@ -389,7 +389,11 @@ ul li ul li {
 
 /*======================= Prof Stein's additions ========================*/
 .page-section{
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> master
 }
 
 .page-sub-section{
@@ -414,6 +418,10 @@ ul li ul li {
 footer{
     background-color: darkblue;
     color:white;
+<<<<<<< HEAD
 }
 Contact GitHub API Training Shop Blog About
 © 2016 GitHub, Inc. Terms Privacy Security Status Help
+=======
+}
+>>>>>>> master
