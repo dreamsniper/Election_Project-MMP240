@@ -1,11 +1,26 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @dreamsniper
+ Unwatch 1
+  Star 0
+  Fork 1 dreamsniper/Election_Project-MMP240
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Tree: 1a2b6ea2c4 Find file Copy pathElection_Project-MMP240/css/style.css
+1a2b6ea  12 days ago
+@profstein profstein prof stein midterm feedback
+2 contributors @dreamsniper @profstein
+RawBlameHistory
+405 lines (317 sloc)  7.47 KB
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Francois+One|Oswald:700';
 
 /* They styles in the following are similar to the effect of a reset but have be separated out so that it is easier to add default styles.  These are suggested styles that the designer should change and add to set the typography
-
 Much of this is modified from two original sources
 HTML 5 Doctor Reset: http://html5doctor.com/html-5-reset-stylesheet/
 This is in the public domain. It has been modified to remove things redundant with Normalize and separate out styles that may need to be styled separately.
-
 Normalize.css: git.io/normalize
 The version modified is: normalize.css v3.0.1 | MIT License
 A few pieces of normalize.css that more directly affected typographic choices (such as font-family) were moved here so normalize.css could be more or less left alone.
@@ -46,7 +61,6 @@ video {
 
 
 /* Embedded Video Styles
-
     These can be used to help add embedded video content, like YouTube videos, to your page. These styles require you set up your HTML in a specific way. See this CodePen for an example of it in use: http://codepen.io/profstein/pen/mArLRj
 */
 
@@ -78,9 +92,7 @@ video {
 /* ==========================================================================
    Base Typographic Styles
    ==========================================================================
-
     The following typographic styles are meant to be changed. They are set so that you know what to style, but don't tell you how to style them. For example all of the headings are set to the same font-size and line-height. That should be changed.
-
 */
 
 
@@ -350,6 +362,10 @@ ol {
     line-height: 1.5em;
 }
 
+li{
+    margin-bottom: 1em;
+}
+
 ul li ul {
     margin: 0;
     padding: 0;
@@ -369,3 +385,35 @@ ul li ul li {
         text-align: left;
     }
 }
+
+
+/*======================= Prof Stein's additions ========================*/
+.page-section{
+
+}
+
+.page-sub-section{
+    margin: 1.5em 0 0 0;
+}
+.media-list li{
+    width: 33%;
+    float:left;
+   padding: 2%;
+    list-style-type: none;
+}
+
+.media-box{
+     border: 1px solid red;
+    padding:5px;
+}
+.media-type{
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+footer{
+    background-color: darkblue;
+    color:white;
+}
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
