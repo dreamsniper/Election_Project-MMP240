@@ -1,30 +1,4 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @dreamsniper
- Unwatch 1
-  Star 0
-  Fork 1 dreamsniper/Election_Project-MMP240
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Tree: 1a2b6ea2c4 Find file Copy pathElection_Project-MMP240/css/style.css
-1a2b6ea  12 days ago
-@profstein profstein prof stein midterm feedback
-2 contributors @dreamsniper @profstein
-RawBlameHistory
-405 lines (317 sloc)  7.47 KB
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Francois+One|Oswald:700';
-
-/* They styles in the following are similar to the effect of a reset but have be separated out so that it is easier to add default styles.  These are suggested styles that the designer should change and add to set the typography
-Much of this is modified from two original sources
-HTML 5 Doctor Reset: http://html5doctor.com/html-5-reset-stylesheet/
-This is in the public domain. It has been modified to remove things redundant with Normalize and separate out styles that may need to be styled separately.
-Normalize.css: git.io/normalize
-The version modified is: normalize.css v3.0.1 | MIT License
-A few pieces of normalize.css that more directly affected typographic choices (such as font-family) were moved here so normalize.css could be more or less left alone.
-*/
 
 
 /* RESPONSIVE PREPARATION
@@ -89,23 +63,8 @@ video {
 }
 
 
-/* ==========================================================================
-   Base Typographic Styles
-   ==========================================================================
-    The following typographic styles are meant to be changed. They are set so that you know what to style, but don't tell you how to style them. For example all of the headings are set to the same font-size and line-height. That should be changed.
-*/
-
-
 /* Default Typography
    ====================================================================
-   !! CHANGE FROM HERE DOWN to suit the needs of your site
-   You can use a resource like http://type-scale.com/ to help you choose font-size
-*/
-
-
-/*
-Set a default font-family, font-size and line-height in the html
-This will set the default for the entire site.
 */
 
 html {
@@ -377,17 +336,6 @@ ul li ul li {
 }
 
 /*main nav*/
-============================* Clearfix * Modified from: http: //nicolasgallagher.com/micro-clearfix-hack/
-* If you already have a clearfix then you can ignore this. *=============================*/
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 
 .cf:before,
 .cf:after {
@@ -437,7 +385,7 @@ ul li ul li {
     display: block;
     color: #fff;
     background-color: #2FB8AC;
-    border: .em solid lightgreen;
+    border: 1em solid lightgreen;
     text-transform: uppercase;
     padding: 0.625em;
     /* 10px in ems is 10/16 */
@@ -484,14 +432,6 @@ ul li ul li {
 *  Media Queries for Main Nav
 *  ========================== */
 
-
-/* these don't have to be separate. We did so for two reasons:
-1. Easy to copy and paste this into new design
-2. Depending on your site you may need separate break points for the nav. You may want to see what width is needed to fit your nav horizontally without breaking and use that as the breakpoint.
-It should also be noted that there is only one media query because this CSS moves the nav to the top where it can stay for all of the other sizes.
-*/
-
-
 /* 45em is about 720px depending on the base font-size */
 
 @media only screen and (min-width: 45em) {
@@ -499,6 +439,7 @@ It should also be noted that there is only one media query because this CSS move
     .menu {
         display: none;
     }
+
     #main_nav {
         /* move main_nav to top of the screen */
         position: absolute;
@@ -510,23 +451,25 @@ It should also be noted that there is only one media query because this CSS move
         overflow: hidden;
         background-color: #2FB8AC;
     }
+
     #main_nav li {
         display: inline;
         line-height: 1em;
     }
+
     #main_nav li a {
         float: left;
         padding: 0.9375em;
         /* 10/16  and  15/16 */
         border-bottom: none;
     }
+
     #main_nav li a.top {
         display: none;
     }
-    /* move the rest of the page down accordingly */
+
     .container {
         margin-top: 4em;
-        /* adjust depending on the height of your nav */
     }
 }
 
@@ -544,11 +487,7 @@ It should also be noted that there is only one media query because this CSS move
 
 /*======================= Prof Stein's additions ========================*/
 .page-section{
-<<<<<<< HEAD
 
-=======
-
->>>>>>> master
 }
 
 .page-sub-section{
@@ -573,10 +512,4 @@ It should also be noted that there is only one media query because this CSS move
 footer{
     background-color: darkblue;
     color:white;
-<<<<<<< HEAD
 }
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
-=======
-}
->>>>>>> master
