@@ -30,3 +30,10 @@
                     $('#main_nav').hide(); //make sure hiding at smaller sizes
                 }
             } //end doneResizing
+
+           //This code was taken from https://jqueryui.com/accordion/#collapsible to createa collapsable accordion button
+           $( function() {
+            $( "#accordion" ).accordion({
+            collapsible: true
+            });
+             } );
