@@ -510,6 +510,8 @@ ul li ul li {
 }
 
 footer{
-    background-color: darkblue;
+    padding: 0;
+    background-color: lightgrey;
     color:white;
+    text-align: center;
 }

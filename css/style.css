@@ -919,7 +919,14 @@ ul li ul li {
 
 /* line 512, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 footer {
-  background-color: darkblue;
-  color: white; }
+  padding: 0;
+  background-color: lightgrey;
+  color: white;
+  text-align: center; }
+
+/* line 4, /Users/steventaveras/Desktop/mmp240-repo/sass/style.scss */
+h2 .accordion-link {
+  background-color: lavender;
+  padding: .25em; }
 
 /*# sourceMappingURL=../css/style.map */
