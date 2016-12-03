@@ -924,9 +924,10 @@ footer {
   color: white;
   text-align: center; }
 
-/* line 4, /Users/steventaveras/Desktop/mmp240-repo/sass/style.scss */
+/* line 1, /Users/steventaveras/Desktop/mmp240-repo/sass/_button-styling.scss */
 h2 .accordion-link {
   background-color: lavender;
-  padding: .25em; }
+  padding: .25em;
+  width: 75%; }
 
 /*# sourceMappingURL=../css/style.map */
