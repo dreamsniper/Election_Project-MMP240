@@ -1,79 +1,82 @@
 <!doctype html>
 
 <html class="no-js" lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>NYC 2016 Elections Homepage</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--<link rel="stylesheet" href="css/normalized-reset.css">-->
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr2.8.3.min.js"></script>
-    </head>
 
-    <body>
-        <div class="container">
-            <div class="logo">
-                <img src="images/election-project-logo.png" alt="Election Project logo" title="Get Out The Vote 2016">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>NYC 2016 Elections Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="css/normalized-reset.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vendor/modernizr2.8.3.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="images/election-project-logo.png" alt="Election Project logo" title="Get Out The Vote 2016">
+        </div>
+        <div class="main-navigation">
+            <div class="menu">
+                <a href="#" id="menu_button">Menu</a>
             </div>
-            <div class="main-navigation"> 
-                <div class="menu">
-                        <a href="#" id="menu_button">Menu</a>
-                </div>
-                 <nav id="main_nav" title="Navigation">
-                        <ul>
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="electionday.html">Vote</a></li>
-                            <li><a href="candidates.html">Candidates</a></li>
-                            <li><a href="register.html">Register</a></li>
-                            <li><a href="events.html">Events</a></li>
-                            <li><a href="resources.html">Resources</a></li>
-                        </ul>
-                </nav>
+            <nav id="main_nav" title="Navigation">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="electionday.html">Vote</a></li>
+                    <li><a href="candidates.html">Candidates</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header class="page-header cf">
+            <h1>GET OUT THE VOTE</h1>
+            <h2>2016 Elections</h2>
+        </header>
+
+        <a id="top"></a>
+
+        <article class="main-content">
+
+            <div class="General-election-information">
+                <h1>Dates</h1>
+                <h2><strong>General Election</strong>: <em>November 8, 2016</em></h2>
+                <p><strong>Registration Deadline</strong>: Friday, <em>October 14, 2016</em></p>
+                <p><strong>Third Presidential Debate</strong>: Wednesday, <em>October 19, 2016</em></p>
+                <ul>
+                    <li>It will be on all of the major networks (ABC, NBC, Fox, CBS, MSNBC, Fox News, Fox Business, CNN, Univision, Telemundo, and C-SPAN)</li>
+                    <li>Online livestreamed on Twitter <a href="http://debates.twitter.com">http://debates.twitter.com</a></li>
+                    <li>Facebook and YouTube and on radio WNYC 93.9 FM or <a href="http://www.wnyc.org/">http://www.wnyc.org/</a></li>
+                </ul>
             </div>
-            <header class="page-header cf">
-                    <h1>GET OUT THE VOTE</h1>
-                    <h2>2016 Elections</h2>
-            </header>
 
-            <a id="top"></a>
+            <div class="links">
+                <button><a href="register.html">How to Register</a></button>
+                <button><a href="electionday.html">Voting Information</a></button>
+                <button><a href="candidates.html">Information about Candidates</a></button>
+                <button><a href="events.html">Upcoming Events</a></button>
+                <button><a href="resources.html">Election Resources</a></button>
+            </div>
+        </article>
 
-            <article class="main-content">
+        <a href="#top">Top</a>
 
-                <div class="General-election-information">
-                    <h1>Dates</h1>
-                    <h2><strong>General Election</strong>: <em>November 8, 2016</em></h2>
-                    <p><strong>Registration Deadline</strong>: Friday, <em>October 14, 2016</em></p>
-                    <p><strong>Third Presidential Debate</strong>: Wednesday, <em>October 19, 2016</em></p>
-                    <ul>
-                        <li>It will be on all of the major networks (ABC, NBC, Fox, CBS, MSNBC, Fox News, Fox Business, CNN, Univision, Telemundo, and C-SPAN)</li>
-                        <li>Online livestreamed on Twitter <a href="http://debates.twitter.com">http://debates.twitter.com</a></li>
-                        <li>Facebook and YouTube and on radio WNYC 93.9 FM or <a href="http://www.wnyc.org/">http://www.wnyc.org/</a></li>
-                    </ul>
-                </div>
+        <footer>
+            <p class="copyright">&copy; Get Out The Vote NYC 2016</p>
+        </footer>
+    </div>
+    <!--end .container-->
 
-                <div class="links">
-                    <button><a href="register.html">How to Register</a></button>
-                    <button><a href="electionday.html">Voting Information</a></button>
-                    <button><a href="candidates.html">Information about Candidates</a></button>
-                    <button><a href="events.html">Upcoming Events</a></button>
-                    <button><a href="resources.html">Election Resources</a></button>
-                </div>
-            </article>
+    <!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!--    Load Local version if CDN is not working-->
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')
+    </script>
+    <script id="script" src="js/nav-javascript.js"></script>
+</body>
 
-            <a href="#top">Top</a>
-
-            <footer>
-                <p class="copyright">&copy; Get Out The Vote NYC 2016</p>
-            </footer>
-        </div><!--end .container-->
-
-        <!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <!--    Load Local version if CDN is not working-->
-        <script>
-            window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')
-        </script>
-        <script id="script" src="js/nav-javascript.js"></script>
-    </body>
 </html>
