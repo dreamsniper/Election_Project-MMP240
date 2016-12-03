@@ -24,12 +24,10 @@
     display: block;
     color: #fff;
     background-color: #2FB8AC;
-    border: 1em solid lightgreen;
     text-transform: uppercase;
-    padding: 0.625em;
+    padding: 1em;
     /* 10px in ems is 10/16 */
     text-decoration: none;
-    border-bottom: 1px solid #eee;
     font-weight: 900;
 }
 
@@ -98,7 +96,7 @@
 
     #main_nav li a {
         float: left;
-        padding: 0.9375em;
+        padding: 0.5em;
         /* 10/16  and  15/16 */
         border-bottom: none;
     }
@@ -108,7 +106,7 @@
     }
 
     .container {
-        margin-top: 4em;
+        margin-top: 2em;
     }
 }
 
