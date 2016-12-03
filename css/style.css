@@ -703,7 +703,12 @@ a:active {
   padding: 1em;
   background-color: white; }
 
-/* line 275, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 273, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+aside {
+  padding: 0;
+  margin: 0; }
+
+/* line 278, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .eventCalendar,
 .googleCalendar {
   position: relative;
@@ -711,7 +716,7 @@ a:active {
   width: 100%;
   padding-bottom: 75%; }
 
-/* line 283, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 286, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .eventCalendar iframe,
 .googleCalendar iframe {
   position: absolute;
@@ -720,54 +725,54 @@ a:active {
   width: 100%;
   height: 100%; }
 
-/* line 292, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 295, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .name {
   font-family: 'Crimson Text', serif;
   font-weight: 700;
   color: #ff0000; }
 
-/* line 298, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 301, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .candidate-image {
   height: 0;
   overflow: hidden;
   padding-bottom: 120%;
   margin: 1em auto 0 auto; }
 
-/* line 305, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 308, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .candidate-description {
   font-weight: 700;
   font-size: 1em; }
 
-/* line 310, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 313, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .party {
   font-weight: 400;
   font-style: italic; }
 
-/* line 315, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 318, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .main-content ul {
   padding: 0; }
 
-/* line 319, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 322, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 ol {
   padding: 1em;
   line-height: 1.5em; }
 
-/* line 324, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 327, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 li {
   margin-bottom: 1em; }
 
-/* line 328, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 331, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 ul li ul {
   margin: 0;
   padding: 0;
   margin-left: 1em; }
 
-/* line 334, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 337, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 ul li ul li {
   padding: 1em; }
 
 /*main nav*/
-/* line 340, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 343, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .cf:before,
 .cf:after {
   content: " ";
@@ -775,7 +780,7 @@ ul li ul li {
   display: table;
   /* 2 */ }
 
-/* line 348, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 351, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .cf:after {
   clear: both; }
 
@@ -783,15 +788,50 @@ ul li ul li {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 358, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 361, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
 .cf {
   *zoom: 1; }
+
+/*======================= Prof Stein's additions ========================*/
+/* line 372, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+.page-sub-section {
+  margin: 1.5em 0 0 0; }
+
+/* line 375, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+.media-list li {
+  width: 33%;
+  float: left;
+  padding: 2%;
+  list-style-type: none; }
+
+/* line 382, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+.media-box {
+  border: 1px solid red;
+  padding: 5px; }
+
+/* line 386, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+.media-type {
+  text-transform: lowercase;
+  font-variant: small-caps; }
+
+/* line 391, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+footer {
+  padding: 0;
+  background-color: lightgrey;
+  color: white;
+  text-align: center; }
+
+/* line 1, /Users/steventaveras/Desktop/mmp240-repo/sass/_button-styling.scss */
+h2 .accordion-link {
+  background-color: lavender;
+  padding: .25em;
+  width: 75%; }
 
 /* ============================
 * NAVIGATION
 * Modified from: http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-simple-responsive-mobile-first-navigation/
 * =============================*/
-/* line 368, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 7, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
 #main_nav {
   font-family: "Crimson Text", serif;
   font-weight: 400;
@@ -800,14 +840,14 @@ ul li ul li {
   display: none;
   /*hidden to start */ }
 
-/* line 377, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 16, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
 #main_nav ul {
   list-style: none;
   line-height: 1;
   margin: 0;
   padding: 0; }
 
-/* line 384, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 23, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
 #main_nav li a {
   display: block;
   color: #fff;
@@ -820,24 +860,24 @@ ul li ul li {
   border-bottom: 1px solid #eee;
   font-weight: 900; }
 
-/* line 397, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 36, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
 #main_nav li a:hover {
   color: #555;
   background-color: #fff; }
 
-/* line 402, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 41, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
 #main_nav li a:active {
   color: #555;
   background-color: #f90; }
 
 /* menu button */
-/* line 410, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 49, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
 .menu {
   margin: 1em;
   float: right;
   margin-top: 4.5em; }
 
-/* line 416, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 55, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
 .menu a {
   padding: 0.5em 0.625em;
   /*10/16 */
@@ -846,7 +886,7 @@ ul li ul li {
   color: #fff;
   text-decoration: none; }
 
-/* line 425, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+/* line 64, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
 .menu a:hover {
   color: #555;
   background-color: #f90; }
@@ -857,10 +897,10 @@ ul li ul li {
 /* 45em is about 720px depending on the base font-size */
 @media only screen and (min-width: 45em) {
   /* hide the menu button */
-  /* line 439, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+  /* line 78, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
   .menu {
     display: none; }
-  /* line 443, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+  /* line 82, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
   #main_nav {
     /* move main_nav to top of the screen */
     position: absolute;
@@ -871,63 +911,28 @@ ul li ul li {
     display: inline;
     overflow: hidden;
     background-color: #2FB8AC; }
-  /* line 455, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+  /* line 94, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
   #main_nav li {
     display: inline;
     line-height: 1em; }
-  /* line 460, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+  /* line 99, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
   #main_nav li a {
     float: left;
     padding: 0.9375em;
     /* 10/16  and  15/16 */
     border-bottom: none; }
-  /* line 467, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+  /* line 106, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
   #main_nav li a.top {
     display: none; }
-  /* line 471, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+  /* line 110, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
   .container {
     margin-top: 4em; } }
 
 /*---- media quary for medium sized screen ----*/
 @media only screen and (min-width: 45em) {
-  /* line 481, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
+  /* line 120, /Users/steventaveras/Desktop/mmp240-repo/sass/_main-navigation.scss */
   h1,
   h2 {
     text-align: left; } }
-
-/*======================= Prof Stein's additions ========================*/
-/* line 493, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
-.page-sub-section {
-  margin: 1.5em 0 0 0; }
-
-/* line 496, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
-.media-list li {
-  width: 33%;
-  float: left;
-  padding: 2%;
-  list-style-type: none; }
-
-/* line 503, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
-.media-box {
-  border: 1px solid red;
-  padding: 5px; }
-
-/* line 507, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
-.media-type {
-  text-transform: lowercase;
-  font-variant: small-caps; }
-
-/* line 512, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.css */
-footer {
-  padding: 0;
-  background-color: lightgrey;
-  color: white;
-  text-align: center; }
-
-/* line 1, /Users/steventaveras/Desktop/mmp240-repo/sass/_button-styling.scss */
-h2 .accordion-link {
-  background-color: lavender;
-  padding: .25em;
-  width: 75%; }
 
 /*# sourceMappingURL=../css/style.map */
