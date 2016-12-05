@@ -1,4 +1,3 @@
-
 /* ============================
 * NAVIGATION
 * Modified from: http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-simple-responsive-mobile-first-navigation/
@@ -46,6 +45,7 @@
 *  Media Queries for Main Nav
 *  ========================== */
 
+
 /* 45em is about 720px depending on the base font-size */
 
 @media only screen and (min-width: 45em) {
@@ -53,7 +53,6 @@
     .menu {
         display: none;
     }
-
     #main_nav {
         /* move main_nav to top of the screen */
         position: absolute;
@@ -65,34 +64,28 @@
         overflow: hidden;
         background-color: #2FB8AC;
     }
-
     #main_nav li {
         display: inline;
         line-height: 1em;
     }
-
     #main_nav li a {
         float: left;
         padding: 0.5em;
         /* 10/16  and  15/16 */
         border-bottom: none;
     }
-
     #main_nav li a.top {
         display: none;
     }
-
     .container {
         margin-top: 2em;
     }
-
-    h1,
-    h2 {
-        text-align: left;
-    }
 }
 
+
 /*______________________________*/
+
+
 /*main nav*/
 
 .cf:before,
@@ -116,4 +109,3 @@
 .cf {
     *zoom: 1;
 }
-

@@ -1,6 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Francois+One|Oswald:700';
 
-
 /*  ==========================================================================
    Forms
    ========================================================================== */
@@ -51,7 +50,6 @@ h1 {
     line-height: 1.2em;
     color: #283744;
     text-align: center;
-
 }
 
 h2 {
@@ -219,7 +217,7 @@ ol {
     line-height: 1.5em;
 }
 
-li{
+li {
     margin-bottom: 1em;
 }
 
@@ -235,32 +233,42 @@ ul li ul li {
 
 
 /*======================= Prof Stein's additions ========================*/
-.page-section{
 
-}
-
-.page-sub-section{
+.page-sub-section {
     margin: 1.5em 0 0 0;
 }
-.media-list li{
+
+.media-list li {
     width: 33%;
-    float:left;
-   padding: 2%;
+    float: left;
+    padding: 2%;
     list-style-type: none;
 }
 
-.media-box{
-     border: 1px solid red;
-    padding:5px;
+.media-box {
+    border: 1px solid red;
+    padding: 5px;
 }
-.media-type{
+
+.media-type {
     text-transform: lowercase;
     font-variant: small-caps;
 }
 
-footer{
+footer {
     padding: 0;
     background-color: lightgrey;
     color: white;
     text-align: center;
+}
+
+
+/*-------------------------------*/
+
+@media only screen and (min-width: 45em) {
+    h1,
+    h2 {
+        padding: .5em 0 0 0;
+        text-align: left;
+    }
 }
