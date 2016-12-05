@@ -1,0 +1,16 @@
+.logo {
+    float:left;
+    display: inline;
+    position: top;
+    padding: .5em;
+    margin: 0 auto 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+.candidate-image {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 120%;
+    margin: 1em auto 0 auto;
+}

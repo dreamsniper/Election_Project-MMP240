@@ -129,16 +129,6 @@ footer {
     color: white;
 }
 
-.logo {
-    float:left;
-    display: inline;
-    position: top;
-    padding: .5em;
-    margin: 0 auto 0 auto;
-    height: 200px;
-    width: 200px;
-}
-
 .time {
     color: green;
     font-size: 1.1em;
@@ -210,13 +200,6 @@ aside {
     color: #ff0000;
 }
 
-.candidate-image {
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 120%;
-    margin: 1em auto 0 auto;
-}
-
 .candidate-description {
     font-weight: 700;
     font-size: 1em;
@@ -250,31 +233,6 @@ ul li ul li {
     padding: 1em;
 }
 
-/*main nav*/
-
-.cf:before,
-.cf:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.cf {
-    *zoom: 1;
-}
-
-
 
 /*======================= Prof Stein's additions ========================*/
 .page-section{
@@ -303,6 +261,6 @@ ul li ul li {
 footer{
     padding: 0;
     background-color: lightgrey;
-    color:white;
+    color: white;
     text-align: center;
 }

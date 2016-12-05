@@ -3,3 +3,25 @@ h2 .accordion-link{
     padding: .25em;
     width: 75%;
 }
+
+/* menu button */
+
+.menu {
+    margin: 1em;
+    float: right;
+    margin-top: 1em;
+}
+
+.menu a {
+    padding: 0.5em 0.625em;
+    /*10/16 */
+    background-color: #555;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #555;
+    background-color: #f90;
+}

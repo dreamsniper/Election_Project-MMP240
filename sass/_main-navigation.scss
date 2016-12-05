@@ -42,29 +42,6 @@
 }
 
 
-/* menu button */
-
-.menu {
-    margin: 1em;
-    float: right;
-    margin-top: 4.5em;
-}
-
-.menu a {
-    padding: 0.5em 0.625em;
-    /*10/16 */
-    background-color: #555;
-    border-radius: 5px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: #555;
-    background-color: #f90;
-}
-
-
 /* ==========================
 *  Media Queries for Main Nav
 *  ========================== */
@@ -108,15 +85,35 @@
     .container {
         margin-top: 2em;
     }
-}
 
-
-
-/*---- media quary for medium sized screen ----*/
-
-@media only screen and (min-width: 45em) {
     h1,
     h2 {
         text-align: left;
     }
 }
+
+/*______________________________*/
+/*main nav*/
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf {
+    *zoom: 1;
+}
+
