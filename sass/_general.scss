@@ -43,9 +43,8 @@ p {
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 3.2em;
-    margin: 1.414em 0 0 .5em;
-    margin-top: 4.5em;
-    padding: .5em;
+    margin: 1em 0 0 .5em;
+    padding: gutter();
     font-weight: inherit;
     line-height: 1.2em;
     color: #283744;
@@ -256,19 +255,28 @@ ul li ul li {
 }
 
 footer {
+    @include container;
     padding: 0;
     background-color: lightgrey;
     color: white;
     text-align: center;
-}
 
-
-/*-------------------------------*/
-
-@media only screen and (min-width: 45em) {
-    h1,
-    h2 {
-        padding: .5em 0 0 0;
-        text-align: left;
+    .copyright{
+        @include span(12 last);
     }
 }
+
+header{
+    @include container;
+    padding: gutter();
+
+    h1{
+        @include span(11);
+    }
+
+    h2{
+        @include span(11);
+
+    }
+}
+
