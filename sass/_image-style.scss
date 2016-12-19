@@ -1,11 +1,18 @@
 .logo {
+    @include container;
     float: left;
-    display: inline;
-    position: top;
-    padding: .5em;
-    margin: 0 auto 0 auto;
+    padding: gutter();
+    margin: 1em 0 0 1em;
     height: 200px;
     width: 200px;
+
+    @media only screen and (min-width: 45em){
+        @include container;
+        @include span(12);
+        margin-top: 1em;
+        display: block;
+        text-align: center;
+    }
 }
 
 .candidate-image {

@@ -1,6 +1,12 @@
+@import "utilities";
 @import "normalized-reset";
-@import "responsive-preset";
+@import "responsive-base";
+@import "typography";
+@import "layout";
+@import "color";
 @import "general";
 @import "button-styling";
 @import "main-navigation";
-@import "image-style"
+@import "image-style";
+@import "page-register";
+
