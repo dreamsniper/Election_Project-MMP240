@@ -1,6 +1,6 @@
 h2 .accordion-link,
 h3 .accordion-link {
-    background-color: lavender;
+    background-color: lighten(saddlebrown, 15%);
     padding: .25em;
     width: 100%;
 }
@@ -15,23 +15,22 @@ h3 .accordion-link:hover {
 /* menu button */
 
 .menu {
+    @include container;
+    @include span(2);
     margin: 1em;
     float: right;
-    margin-top: 1em;
-}
-
-.menu a {
-    padding: 0.5em 0.625em;
-    /*10/16 */
-    background-color: #555;
-    border-radius: 5px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: #555;
-    background-color: #f90;
+    a {
+        padding: 0.5em 0.625em;
+        /*10/16 */
+        background-color: #555;
+        border-radius: 5px;
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #555;
+        background-color: #f90;
+    }
 }
 
 button {
