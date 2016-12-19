@@ -8,8 +8,8 @@
 
     @media only screen and (min-width: 45em){
         @include container;
-        margin-top: 1em;
         @include span(12);
+        margin-top: 1em;
         display: block;
         text-align: center;
     }

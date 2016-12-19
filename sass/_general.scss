@@ -254,6 +254,7 @@ ul li ul li {
     font-variant: small-caps;
 }
 
+//footer styling
 footer {
     @include container;
     padding: 0;
@@ -266,16 +267,21 @@ footer {
     }
 }
 
+//Header styling
 header{
     @include container;
     padding: gutter();
 
     h1{
-        @include span(11);
+        @include span(12);
+        margin: 0;
+        margin-top: 1em;
     }
 
     h2{
-        @include span(11);
+        @include span(12);
+        margin: 0;
+        margin-top: .5em;
 
     }
 }
