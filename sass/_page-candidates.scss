@@ -1,21 +1,134 @@
 //Styling for candidtaes page
 .candidates {
-    @include container;
-    .article-content {}
-    //end of article-content
-    .federal {
-        .federal-content {
-            @media only screen and (min-width: 45em) {}
+    @include container; //candidates container
+    .main-content {
+        background-color: $palette3;
+        .party {
+            font-weight: 400;
+            font-style: italic;
+            color: red;
         }
-        .federal-president-content {}
-        .federal-congress-content {}
-        .federal-house-of-representative-content {}
-    } //end of federal
-    .nys {
-        .nys-content {}
-        .nys-democrat-content {}
-        .nys-republican-content {}
-        .nys-democratic-primary-content {}
-        .nys-republican-primary-content {}
-    } //end of nys
+        .candidate-image {
+            @include container;
+            @include span(12);
+            width: 100%;
+            height: 100%;
+        }
+        .candidate-description {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            font-weight: 700;
+            font-size: 1em;
+        }
+        //media query for larger screen size
+        @media only screen and (min-width: 45em) {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            .candidate-image {
+                width: 70%;
+                height: 70%;
+                margin: 0;
+            }
+            .candidate-description {
+                padding: 0;
+                margin: 0;
+                width: 90%;
+                float: left;
+                font-weight: 700;
+                font-size: 1em;
+                clear: left;
+            }
+            .column-one {
+                @include span(6);
+                @include clearfix;
+                float: left;
+                clear: left;
+            }
+            .column-two {
+                @include span(6);
+                @include clearfix;
+                padding: gutter();
+                float: left;
+                clear: right;
+            }
+            ol {
+                @include container;
+                @include span (12);
+                margin-left: 1em;
+            }
+            h1,
+            h2,
+            h3,
+            h4 {
+                @include span(12);
+                text-align: center;
+                clear: both;
+            }
+            p {
+                @include span(12);
+            }
+            .name {
+                font-family: 'Crimson Text', serif;
+                font-weight: 700;
+                color: #ff0000;
+            }
+        } //end of media query
+        .article-content {
+            @include container;
+            clear: both;
+            li {
+                clear: both;
+                margin-left: gutter();
+            }
+        }
+        //end of article-content
+        .federal {
+            @include span (12);
+            @include clearfix;
+            .federal-content {
+                //for larger screen size
+                @media only screen and (min-width: 45em) {
+                    @include clearfix;
+                    padding-top: gutter(2);
+                    p {
+                        text-align: center;
+                    }
+                }
+            }
+            .federal-president-content {
+                h3 {
+                    text-align: center;
+                }
+                li {
+                    list-style: none;
+                }
+            }
+            .federal-congress-content {
+                li {
+                    list-style: none;
+                }
+            }
+            .federal-house-of-representative-content {
+                li {
+                    list-style: none;
+                }
+            }
+        } //end of federal
+        .nys {
+            @include span (12 break);
+            border-width: medium;
+            padding: 1em;
+            li {
+                list-style: none;
+            }
+            .nys-content {}
+            .nys-democrat-content {}
+            .nys-republican-content {}
+            .nys-democratic-primary-content {}
+            .nys-republican-primary-content {}
+        } //end of nys
+    } //end of main content
 }
