@@ -1,0 +1,97 @@
+//Styles for register page
+.register {
+    .main-content {
+        @include container;
+        background-color: $palette3;
+        //media query for larger screen size
+        @media only screen and (min-width: 45em) {
+            h1, h2, h3 {
+                @include span(12);
+                text-align: center;
+            }
+            p {
+                @include span(12);
+            }
+            .deadline-content {
+                @include span(12 break);
+                background-color: darkblue;
+                p {
+                    color: #fff;
+                }
+            }
+            ol {
+                margin-left: 1em;
+            }
+        }
+    }
+    .article-content {}
+    .eligibility-info {
+        @include span (12 break);
+        background-color: #fff;
+        //media query for larger screen
+        @media only screen and (min-width: 45em) {
+            .change-registration-content {
+                @include span (4 break);
+                padding: 1em;
+            }
+            .eligibility-content {
+                @include span (4);
+                padding: 1em;
+                h2 {
+                    margin-bottom: 1em;
+                }
+            }
+            .where-registered-content {
+                @include span (4 last);
+                padding: 1em;
+            }
+        }
+    }
+    .how-to-content {
+        @include container;
+        @include span (12);
+        //media queries for larger size
+        @media only screen and (min-width: 45em) {
+            li {
+                @include container;
+                @include span (4);
+                display: inline;
+                background-color: lightblue;
+                border: 2px solid blue;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+    .options-info {
+        @include span(12 break);
+        @include clearfix;
+        .option-one {
+            @include span(12 break);
+            background-color: #fff;
+        }
+        .option-two {
+            @include span(12 break);
+        }
+        .option-three {
+            @include span(12 break);
+            background-color: #fff;
+        }
+    }
+}
+
+.population-info {
+    padding: gutter();
+    @include clearfix;
+    .student-voters {
+        @include span(4 break);
+    }
+    .homeless-voters {
+        @include span(4);
+    }
+    .military-voters {
+        @include span(4 last);
+    }
+} //end register styles
