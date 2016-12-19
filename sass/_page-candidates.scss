@@ -1,0 +1,21 @@
+//Styling for candidtaes page
+.candidates {
+    @include container;
+    .article-content {}
+    //end of article-content
+    .federal {
+        .federal-content {
+            @media only screen and (min-width: 45em) {}
+        }
+        .federal-president-content {}
+        .federal-congress-content {}
+        .federal-house-of-representative-content {}
+    } //end of federal
+    .nys {
+        .nys-content {}
+        .nys-democrat-content {}
+        .nys-republican-content {}
+        .nys-democratic-primary-content {}
+        .nys-republican-primary-content {}
+    } //end of nys
+}

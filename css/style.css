@@ -1146,27 +1146,46 @@ button:hover {
         display: block;
         clear: both; } }
 
-/* line 18, /Users/steventaveras/Desktop/mmp240-repo/sass/_image-style.scss */
+/* line 17, /Users/steventaveras/Desktop/mmp240-repo/sass/_image-style.scss */
 .candidate-image {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
   height: 0;
   overflow: hidden;
-  padding-bottom: 120%;
+  padding-bottom: 100%;
   margin: 1em auto 0 auto; }
+  /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+  .candidate-image:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  @media only screen and (min-width: 45em) {
+    /* line 25, /Users/steventaveras/Desktop/mmp240-repo/sass/_image-style.scss */
+    .candidate-image .candidate-image {
+      width: 50%;
+      float: left;
+      padding-left: 1.38889%;
+      padding-right: 1.38889%;
+      width: 33.3333%;
+      height: 33.3333%;
+      float: left;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; } }
 
 @media only screen and (min-width: 45em) {
-  /* line 27, /Users/steventaveras/Desktop/mmp240-repo/sass/_image-style.scss */
-  .candidate-image {
-    width: 33%;
-    height: 33%;
-    float: left; }
-  /* line 32, /Users/steventaveras/Desktop/mmp240-repo/sass/_image-style.scss */
+  /* line 39, /Users/steventaveras/Desktop/mmp240-repo/sass/_image-style.scss */
   .candidate-description {
     padding: 0;
     margin: 0;
     width: 33%;
-    height: 33%;
-    float: left; }
-  /* line 39, /Users/steventaveras/Desktop/mmp240-repo/sass/_image-style.scss */
+    clear: left;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  /* line 49, /Users/steventaveras/Desktop/mmp240-repo/sass/_image-style.scss */
   .nys-democratic-primary-content {
     width: 0;
     height: 0; } }
@@ -1184,19 +1203,36 @@ button:hover {
     clear: both; }
   @media only screen and (min-width: 45em) {
     /* line 8, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
-    .register .main-content h1, .register .main-content h2, .register .main-content h3 {
+    .register .main-content ol {
+      max-width: 1500px;
+      margin-left: auto;
+      margin-right: auto;
+      clear: both;
+      width: 100%;
+      float: left;
+      padding-left: 1.38889%;
+      padding-right: 1.38889%; }
+      /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+      .register .main-content ol:after {
+        content: " ";
+        display: block;
+        clear: both; }
+    /* line 12, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    .register .main-content h1,
+    .register .main-content h2,
+    .register .main-content h3 {
       width: 100%;
       float: left;
       padding-left: 1.38889%;
       padding-right: 1.38889%;
       text-align: center; }
-    /* line 12, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    /* line 18, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
     .register .main-content p {
       width: 100%;
       float: left;
       padding-left: 1.38889%;
       padding-right: 1.38889%; }
-    /* line 15, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    /* line 21, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
     .register .main-content .deadline-content {
       clear: both;
       width: 100%;
@@ -1204,14 +1240,14 @@ button:hover {
       padding-left: 1.38889%;
       padding-right: 1.38889%;
       background-color: darkblue; }
-      /* line 18, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+      /* line 24, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
       .register .main-content .deadline-content p {
         color: #fff; }
-    /* line 22, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    /* line 28, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
     .register .main-content ol {
       margin-left: 1em; } }
 
-/* line 28, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+/* line 34, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
 .register .eligibility-info {
   clear: both;
   width: 100%;
@@ -1220,7 +1256,7 @@ button:hover {
   padding-right: 1.38889%;
   background-color: #fff; }
   @media only screen and (min-width: 45em) {
-    /* line 33, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    /* line 39, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
     .register .eligibility-info .change-registration-content {
       clear: both;
       width: 33.33333%;
@@ -1228,17 +1264,17 @@ button:hover {
       padding-left: 1.38889%;
       padding-right: 1.38889%;
       padding: 1em; }
-    /* line 37, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    /* line 43, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
     .register .eligibility-info .eligibility-content {
       width: 33.33333%;
       float: left;
       padding-left: 1.38889%;
       padding-right: 1.38889%;
       padding: 1em; }
-      /* line 40, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+      /* line 46, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
       .register .eligibility-info .eligibility-content h2 {
         margin-bottom: 1em; }
-    /* line 44, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    /* line 50, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
     .register .eligibility-info .where-registered-content {
       width: 33.33333%;
       float: right;
@@ -1246,7 +1282,7 @@ button:hover {
       padding-right: 1.38889%;
       padding: 1em; } }
 
-/* line 50, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+/* line 56, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
 .register .how-to-content {
   max-width: 1500px;
   margin-left: auto;
@@ -1261,7 +1297,7 @@ button:hover {
     display: block;
     clear: both; }
   @media only screen and (min-width: 45em) {
-    /* line 55, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    /* line 61, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
     .register .how-to-content li {
       max-width: 1500px;
       margin-left: auto;
@@ -1279,23 +1315,18 @@ button:hover {
         content: " ";
         display: block;
         clear: both; }
-    /* line 63, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    /* line 69, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
     .register .how-to-content p {
       text-align: center; } }
 
-/* line 68, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+/* line 74, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
 .register .options-info {
   clear: both;
   width: 100%;
   float: left;
   padding-left: 1.38889%;
   padding-right: 1.38889%; }
-  /* line 3, /Users/steventaveras/Desktop/mmp240-repo/sass/_utilities.scss */
-  .register .options-info:after {
-    content: " ";
-    display: table;
-    clear: both; }
-  /* line 71, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+  /* line 76, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
   .register .options-info .option-one {
     clear: both;
     width: 100%;
@@ -1303,14 +1334,29 @@ button:hover {
     padding-left: 1.38889%;
     padding-right: 1.38889%;
     background-color: #fff; }
-  /* line 75, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    @media only screen and (min-width: 45em) {
+      /* line 81, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+      .register .options-info .option-one li {
+        width: 80%;
+        margin-left: 10%;
+        padding: .5em;
+        clear: both; } }
+  /* line 89, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
   .register .options-info .option-two {
     clear: both;
     width: 100%;
     float: left;
     padding-left: 1.38889%;
-    padding-right: 1.38889%; }
-  /* line 78, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+    padding-right: 1.38889%;
+    background-color: #fff; }
+    @media only screen and (min-width: 45em) {
+      /* line 94, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+      .register .options-info .option-two li {
+        width: 80%;
+        margin-left: 10%;
+        padding: .5em;
+        clear: both; } }
+  /* line 102, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
   .register .options-info .option-three {
     clear: both;
     width: 100%;
@@ -1318,8 +1364,15 @@ button:hover {
     padding-left: 1.38889%;
     padding-right: 1.38889%;
     background-color: #fff; }
+    @media only screen and (min-width: 45em) {
+      /* line 107, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+      .register .options-info .option-three li {
+        width: 80%;
+        margin-left: 10%;
+        padding: .5em;
+        clear: both; } }
 
-/* line 85, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+/* line 118, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
 .population-info {
   padding: 1.38889%; }
   /* line 3, /Users/steventaveras/Desktop/mmp240-repo/sass/_utilities.scss */
@@ -1327,24 +1380,35 @@ button:hover {
     content: " ";
     display: table;
     clear: both; }
-  /* line 88, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+  /* line 121, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
   .population-info .student-voters {
     clear: both;
     width: 33.33333%;
     float: left;
     padding-left: 1.38889%;
     padding-right: 1.38889%; }
-  /* line 91, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+  /* line 124, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
   .population-info .homeless-voters {
     width: 33.33333%;
     float: left;
     padding-left: 1.38889%;
     padding-right: 1.38889%; }
-  /* line 94, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
+  /* line 127, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-register.scss */
   .population-info .military-voters {
     width: 33.33333%;
     float: right;
     padding-left: 1.38889%;
     padding-right: 1.38889%; }
+
+/* line 2, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+.candidates {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+  .candidates:after {
+    content: " ";
+    display: block;
+    clear: both; }
 
 /*# sourceMappingURL=../css/style.map */

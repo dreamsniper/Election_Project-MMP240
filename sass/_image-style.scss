@@ -5,8 +5,7 @@
     margin: 1em 0 0 1em;
     height: 200px;
     width: 200px;
-
-    @media only screen and (min-width: 45em){
+    @media only screen and (min-width: 45em) {
         @include container;
         @include span(12);
         margin-top: 1em;
@@ -16,25 +15,36 @@
 }
 
 .candidate-image {
+    @include container;
     height: 0;
     overflow: hidden;
-    padding-bottom: 120%;
+    padding-bottom: 100%;
     margin: 1em auto 0 auto;
+    //media query for larger screen
+    @media only screen and (min-width: 45em) {
+        .candidate-image {
+            @include span(6);
+            width: 33.3333%;
+            height: 33.3333%;
+            float: left;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+    }
 }
 
 //__________________________________________
 @media only screen and (min-width: 45em) {
-    .candidate-image {
-        width: 33%;
-        height: 33%;
-        float: left;
-    }
     .candidate-description {
         padding: 0;
         margin: 0;
         width: 33%;
-        height: 33%;
+        clear: left;
         float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
     .nys-democratic-primary-content {
         width: 0;

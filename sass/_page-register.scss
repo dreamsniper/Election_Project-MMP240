@@ -5,7 +5,13 @@
         background-color: $palette3;
         //media query for larger screen size
         @media only screen and (min-width: 45em) {
-            h1, h2, h3 {
+            ol {
+                @include container;
+                @include span (12 break);
+            }
+            h1,
+            h2,
+            h3 {
                 @include span(12);
                 text-align: center;
             }
@@ -67,17 +73,44 @@
     }
     .options-info {
         @include span(12 break);
-        @include clearfix;
         .option-one {
             @include span(12 break);
             background-color: #fff;
-        }
+            //media queries for larger size
+            @media only screen and (min-width: 45em) {
+                li {
+                    width: 80%;
+                    margin-left: 10%;
+                    padding: .5em;
+                    clear: both;
+                }
+            }
+        } //end of option one
         .option-two {
             @include span(12 break);
+            background-color: #fff;
+            //media queries for larger size
+            @media only screen and (min-width: 45em) {
+                li {
+                    width: 80%;
+                    margin-left: 10%;
+                    padding: .5em;
+                    clear: both;
+                }
+            }
         }
         .option-three {
             @include span(12 break);
             background-color: #fff;
+            //media queries for larger size
+            @media only screen and (min-width: 45em) {
+                li {
+                    width: 80%;
+                    margin-left: 10%;
+                    padding: .5em;
+                    clear: both;
+                }
+            }
         }
     }
 }
