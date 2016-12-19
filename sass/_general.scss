@@ -26,7 +26,6 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color: white;
     font-family: 'Crimson Text', 'Oswald', 'Francois One', sans-serif;
     font-weight: 400;
     line-height: 1.5em;
@@ -119,13 +118,14 @@ article h2 {
     margin: 1em 0 0 1em;
     height: 200px;
     width: 200px;
+    //for larger screen
     @media only screen and (min-width: 45em) {
         @include container;
         @include span(12);
         margin-top: 1em;
         display: block;
         text-align: center;
-    }
+    } //end of query
 }
 
 footer {
@@ -200,12 +200,8 @@ aside {
     height: 100%;
 }
 
-.main-content ul {
-    padding: 0;
-}
-
 ol {
-    padding: 1em;
+    padding: 0;
     line-height: 1.5em;
 }
 

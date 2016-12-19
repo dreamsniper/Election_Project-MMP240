@@ -2,7 +2,6 @@
 .candidates {
     @include container; //candidates container
     .main-content {
-        background-color: $palette3;
         .party {
             font-weight: 400;
             font-style: italic;
@@ -13,6 +12,9 @@
             @include span(12);
             width: 100%;
             height: 100%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
         }
         .candidate-description {
             text-align: center;
@@ -77,7 +79,6 @@
             }
         } //end of media query
         .article-content {
-            @include container;
             clear: both;
             li {
                 clear: both;
@@ -88,23 +89,22 @@
         .federal {
             @include span (12);
             @include clearfix;
+            background-color: #fff;
             .federal-content {
                 //for larger screen size
                 @media only screen and (min-width: 45em) {
-                    @include clearfix;
-                    padding-top: gutter(2);
                     p {
                         text-align: center;
                     }
-                }
-            }
-            .federal-president-content {
+                    .federal-president-content {
                 h3 {
                     text-align: center;
                 }
                 li {
                     list-style: none;
                 }
+            }
+                }//end of query
             }
             .federal-congress-content {
                 li {
@@ -126,7 +126,12 @@
             }
             .nys-content {}
             .nys-democrat-content {}
-            .nys-republican-content {}
+            .nys-republican-content {
+                p {
+                    text-align: center;
+                    clear: both;
+                }
+            }
             .nys-democratic-primary-content {}
             .nys-republican-primary-content {}
         } //end of nys
