@@ -2,7 +2,20 @@
 .register {
     .main-content {
         @include container;
-        background-color: $palette3;
+        @include span(12);
+        background-color: $waterserpents;
+        padding: gutter();
+        article{
+            background-color: $dustinthewind;
+            margin: gutter();
+        }
+        .deadline-content {
+                @include span(12 break);
+                background-color: darkblue;
+                p {
+                    color: #fff;
+                }
+            }
         //media query for larger screen size
         @media only screen and (min-width: 45em) {
             ol {
@@ -19,16 +32,8 @@
             p {
                 @include span(12);
             }
-            .deadline-content {
-                @include span(12 break);
-                background-color: darkblue;
-                p {
-                    color: #fff;
-                }
-            }
         }
     }
-    .article-content {}
     .eligibility-info {
         @include span (12 break);
 background-color: #fff;
@@ -54,6 +59,9 @@ background-color: #fff;
     .how-to-content {
         @include container;
         @include span (12);
+        li{
+            margin: 1em;
+        }
         //media queries for larger size
         @media only screen and (min-width: 45em) {
             li {
@@ -70,6 +78,9 @@ background-color: #fff;
         }
     }
     .options-info {
+        li{
+            margin: 1em;
+        }
         @include span(12 break);
         .option-one {
             @include span(12 break);
@@ -114,8 +125,10 @@ background-color: #fff;
 }
 
 .population-info {
+    @include container;
     padding: gutter();
-    @include clearfix;
+    background-color: $dustinthewind;
+    margin-bottom: 1em;
     .student-voters {
         @include span(4 break);
     }
