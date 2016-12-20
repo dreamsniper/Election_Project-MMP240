@@ -68,7 +68,7 @@
         width: 100%;
         display: inline;
         overflow: hidden;
-        background-color: #2FB8AC;
+        background-color: $aquahead;
         li {
             @include container;
             @include span(2);

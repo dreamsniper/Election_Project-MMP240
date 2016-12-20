@@ -96,12 +96,13 @@ h6 {
 }
 
 article {
+    @include container;
+    background-color: $waterserpents;
     margin: 1em 0 1em 0;
     line-height: 1.3em;
     padding: 1.3em;
     font-size: 1em;
     color: black;
-    background-color: #e6ffff;
 }
 
 article h1,
