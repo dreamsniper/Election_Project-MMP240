@@ -271,3 +271,11 @@ header {
         margin-top: .5em;
     }
 }
+
+.deadline-content {
+                @include span(12 break);
+                background-color: darkblue;
+                p {
+                    color: #fff;
+                }
+            }
