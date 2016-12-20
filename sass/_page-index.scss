@@ -1,0 +1,20 @@
+//style for index page
+.index{
+    .main-content{
+        @include container;
+        @include span(12);
+        background-color: $waterserpents;
+        padding: gutter();
+        article{
+            background-color: $dustinthewind;
+            margin: gutter();
+        }
+        .deadline-content {
+                @include span(12 break);
+                background-color: darkblue;
+                p {
+                    color: #fff;
+                }
+            }
+    }
+}
