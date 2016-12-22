@@ -271,3 +271,23 @@ header {
         margin-top: .5em;
     }
 }
+.main-content{
+        @include container;
+        @include span(12);
+        background-color: $waterserpents;
+        padding: gutter();
+        article{
+            background-color: $dustinthewind;
+            margin: gutter();
+        }
+    .article-content {
+        background-color: $palette1;
+    }
+        .deadline-content {
+                @include span(12 break);
+                background-color: darkblue;
+                p {
+                    color: #fff;
+                }
+            }
+}

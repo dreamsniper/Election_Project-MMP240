@@ -1,12 +1,6 @@
 //style for index page
 .index{
     @include container;
-    @include span (12);
-    .top {
-          @include span(12);
-          text-align: center;
-          padding: gutter();
-        }
     .main-content{
         @include container;
         @include span(12);

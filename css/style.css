@@ -938,29 +938,52 @@ header {
     margin: 0;
     margin-top: .5em; }
 
-/* line 2, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
-.index {
+/* line 274, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.scss */
+.main-content {
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   float: left;
   padding-left: 1.38889%;
-  padding-right: 1.38889%; }
+  padding-right: 1.38889%;
+  background-color: #476388;
+  padding: 1.38889%; }
+  /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+  .main-content:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 279, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.scss */
+  .main-content article {
+    background-color: #ebe0cd;
+    margin: 1.38889%; }
+  /* line 283, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.scss */
+  .main-content .article-content {
+    background-color: #fff; }
+  /* line 286, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.scss */
+  .main-content .deadline-content {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+    background-color: darkblue; }
+    /* line 289, /Users/steventaveras/Desktop/mmp240-repo/sass/_general.scss */
+    .main-content .deadline-content p {
+      color: #fff; }
+
+/* line 2, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+.index {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto; }
   /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
   .index:after {
     content: " ";
     display: block;
     clear: both; }
-  /* line 5, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
-  .index .top {
-    width: 100%;
-    float: left;
-    padding-left: 1.38889%;
-    padding-right: 1.38889%;
-    text-align: center;
-    padding: 1.38889%; }
-  /* line 10, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+  /* line 4, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
   .index .main-content {
     max-width: 1500px;
     margin-left: auto;
@@ -976,11 +999,11 @@ header {
       content: " ";
       display: block;
       clear: both; }
-    /* line 15, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+    /* line 9, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
     .index .main-content article {
       background-color: #ebe0cd;
       margin: 1.38889%; }
-    /* line 19, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+    /* line 13, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
     .index .main-content .deadline-content {
       clear: both;
       width: 100%;
@@ -988,15 +1011,15 @@ header {
       padding-left: 1.38889%;
       padding-right: 1.38889%;
       background-color: darkblue; }
-      /* line 22, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+      /* line 16, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
       .index .main-content .deadline-content p {
         color: #fff; }
-    /* line 26, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+    /* line 20, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
     .index .main-content .general-election-information {
       background-color: #fff;
       padding: 1.38889%; }
     @media only screen and (min-width: 45em) {
-      /* line 31, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+      /* line 25, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
       .index .main-content h1 {
         text-align: center; } }
 
@@ -1390,15 +1413,11 @@ header {
       display: block;
       clear: both; }
     /* line 9, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
-    .candidates .main-content article {
-      background-image: #476388;
-      margin: 1.38889%; }
-    /* line 13, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
     .candidates .main-content .party {
       font-weight: 400;
       font-style: italic;
       color: red; }
-    /* line 18, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+    /* line 14, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
     .candidates .main-content .candidate-image {
       max-width: 1500px;
       margin-left: auto;
@@ -1417,7 +1436,7 @@ header {
         content: " ";
         display: block;
         clear: both; }
-    /* line 27, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+    /* line 23, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
     .candidates .main-content .candidate-description {
       text-align: center;
       padding: 0;
@@ -1431,12 +1450,15 @@ header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box; }
-        /* line 40, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 36, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content .candidate-image {
+          width: 50%;
+          float: left;
+          padding-left: 1.38889%;
+          padding-right: 1.38889%;
           width: 70%;
-          height: 70%;
-          margin: 0; }
-        /* line 45, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+          height: 70%; }
+        /* line 41, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content .candidate-description {
           padding: 0;
           margin: 0;
@@ -1445,7 +1467,7 @@ header {
           font-weight: 700;
           font-size: 1em;
           clear: left; }
-        /* line 54, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 50, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content .column-one {
           width: 50%;
           float: left;
@@ -1460,12 +1482,12 @@ header {
             content: " ";
             display: table;
             clear: both; }
-          /* line 61, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+          /* line 57, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
           .candidates .main-content .column-one img {
             display: block;
             margin-left: 20%;
             margin-right: 20%; }
-        /* line 67, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 63, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content .column-two {
           width: 50%;
           float: left;
@@ -1480,12 +1502,12 @@ header {
             content: " ";
             display: table;
             clear: both; }
-          /* line 74, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+          /* line 70, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
           .candidates .main-content .column-two img {
             display: block;
             margin-left: 20%;
             margin-right: 20%; }
-        /* line 80, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 76, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content ol {
           max-width: 1500px;
           margin-left: auto;
@@ -1500,7 +1522,7 @@ header {
             content: " ";
             display: block;
             clear: both; }
-        /* line 85, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 81, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content h1,
         .candidates .main-content h2,
         .candidates .main-content h3,
@@ -1511,25 +1533,25 @@ header {
           padding-right: 1.38889%;
           text-align: center;
           clear: both; }
-        /* line 93, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 89, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content p {
           width: 100%;
           float: left;
           padding-left: 1.38889%;
           padding-right: 1.38889%; }
-        /* line 96, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 92, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content .name {
           font-family: 'Crimson Text', serif;
           font-weight: 700;
           color: #ff0000; } }
-    /* line 102, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+    /* line 98, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
     .candidates .main-content .article-content {
       clear: both; }
-      /* line 104, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+      /* line 100, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
       .candidates .main-content .article-content li {
         clear: both;
         margin-left: 1.38889%; }
-    /* line 110, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+    /* line 106, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
     .candidates .main-content .federal {
       width: 100%;
       float: left;
@@ -1541,26 +1563,26 @@ header {
         content: " ";
         display: table;
         clear: both; }
-      /* line 114, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+      /* line 110, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
       .candidates .main-content .federal li {
         list-style: none; }
       @media only screen and (min-width: 45em) {
-        /* line 120, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 116, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content .federal .federal-content p {
           text-align: center; }
-        /* line 124, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 120, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content .federal .federal-content .federal-president-content h3 {
           text-align: center; }
-        /* line 127, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+        /* line 123, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
         .candidates .main-content .federal .federal-content .federal-president-content li {
           list-style: none; } }
-      /* line 134, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+      /* line 130, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
       .candidates .main-content .federal .federal-congress-content li {
         list-style: none; }
-      /* line 139, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+      /* line 135, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
       .candidates .main-content .federal .federal-house-of-representative-content li {
         list-style: none; }
-    /* line 144, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+    /* line 140, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
     .candidates .main-content .nys {
       clear: both;
       width: 100%;
@@ -1570,10 +1592,10 @@ header {
       background-color: #fff;
       border-width: medium;
       padding: 1em; }
-      /* line 149, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+      /* line 145, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
       .candidates .main-content .nys li {
         list-style: none; }
-      /* line 155, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
+      /* line 151, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-candidates.scss */
       .candidates .main-content .nys .nys-republican-content p {
         text-align: center;
         clear: both; }
@@ -1582,25 +1604,13 @@ header {
 .election-day {
   max-width: 1500px;
   margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  float: left;
-  padding-left: 1.38889%;
-  padding-right: 1.38889%; }
+  margin-right: auto; }
   /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
   .election-day:after {
     content: " ";
     display: block;
     clear: both; }
-  /* line 5, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
-  .election-day .top {
-    width: 100%;
-    float: left;
-    padding-left: 1.38889%;
-    padding-right: 1.38889%;
-    text-align: center;
-    padding: 1.38889%; }
-  /* line 10, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+  /* line 4, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
   .election-day .main-content {
     max-width: 1500px;
     margin-left: auto;
@@ -1616,30 +1626,28 @@ header {
       content: " ";
       display: block;
       clear: both; }
-    /* line 15, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+    /* line 9, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
     .election-day .main-content article {
       background-color: #ebe0cd;
       margin: 1.38889%; }
-    /* line 19, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+    /* line 13, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
     .election-day .main-content .article-content {
       background-color: white; }
-    /* line 22, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+    /* line 16, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
     .election-day .main-content .deadline-content {
       clear: both;
       width: 100%;
       float: left;
       padding-left: 1.38889%;
       padding-right: 1.38889%;
-      background-color: darkblue; }
-      /* line 25, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
-      .election-day .main-content .deadline-content p {
-        color: #fff; }
-    /* line 29, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+      background-color: darkblue;
+      color: #fff; }
+    /* line 21, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
     .election-day .main-content .general-election-information {
       background-color: #fff;
       padding: 1.38889%; }
     @media only screen and (min-width: 45em) {
-      /* line 34, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+      /* line 26, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
       .election-day .main-content h1 {
         text-align: center; } }
 

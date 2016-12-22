@@ -6,10 +6,6 @@
         @include span(12);
         background-color: $dustinthewind;
         padding: gutter();
-        article{
-            background-image: $waterserpents;
-            margin: gutter();
-        }
         .party {
             font-weight: 400;
             font-style: italic;
@@ -38,9 +34,9 @@
             -moz-box-sizing: border-box;
             box-sizing: border-box;
             .candidate-image {
+                @include span(6);
                 width: 70%;
                 height: 70%;
-                margin: 0;
             }
             .candidate-description {
                 padding: 0;

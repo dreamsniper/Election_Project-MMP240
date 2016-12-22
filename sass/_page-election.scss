@@ -1,12 +1,6 @@
 //styling for election-page
 .election-day{
     @include container;
-    @include span (12);
-    .top {
-          @include span(12);
-          text-align: center;
-          padding: gutter();
-        }
     .main-content{
         @include container;
         @include span(12);
@@ -22,9 +16,7 @@
         .deadline-content {
                 @include span(12 break);
                 background-color: darkblue;
-                p {
-                    color: #fff;
-                }
+                color: $palette1;
             }
         .general-election-information {
             background-color: #fff;
