@@ -1,1 +1,39 @@
 //styling for election-page
+.election-day{
+    @include container;
+    @include span (12);
+    .top {
+          @include span(12);
+          text-align: center;
+          padding: gutter();
+        }
+    .main-content{
+        @include container;
+        @include span(12);
+        background-color: $waterserpents;
+        padding: gutter();
+        article{
+            background-color: $dustinthewind;
+            margin: gutter();
+        }
+        .article-content{
+            background-color: white;
+        }
+        .deadline-content {
+                @include span(12 break);
+                background-color: darkblue;
+                p {
+                    color: #fff;
+                }
+            }
+        .general-election-information {
+            background-color: #fff;
+            padding: gutter();
+        }
+        @media only screen and (min-width: 45em) {
+             h1 {
+                text-align: center;
+            }
+        }
+    }
+}

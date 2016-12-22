@@ -1578,6 +1578,71 @@ header {
         text-align: center;
         clear: both; }
 
+/* line 2, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+.election-day {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  float: left;
+  padding-left: 1.38889%;
+  padding-right: 1.38889%; }
+  /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+  .election-day:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 5, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+  .election-day .top {
+    width: 100%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+    text-align: center;
+    padding: 1.38889%; }
+  /* line 10, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+  .election-day .main-content {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+    background-color: #476388;
+    padding: 1.38889%; }
+    /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+    .election-day .main-content:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    /* line 15, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+    .election-day .main-content article {
+      background-color: #ebe0cd;
+      margin: 1.38889%; }
+    /* line 19, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+    .election-day .main-content .article-content {
+      background-color: white; }
+    /* line 22, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+    .election-day .main-content .deadline-content {
+      clear: both;
+      width: 100%;
+      float: left;
+      padding-left: 1.38889%;
+      padding-right: 1.38889%;
+      background-color: darkblue; }
+      /* line 25, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+      .election-day .main-content .deadline-content p {
+        color: #fff; }
+    /* line 29, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+    .election-day .main-content .general-election-information {
+      background-color: #fff;
+      padding: 1.38889%; }
+    @media only screen and (min-width: 45em) {
+      /* line 34, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-election.scss */
+      .election-day .main-content h1 {
+        text-align: center; } }
+
 /* line 1, /Users/steventaveras/Desktop/mmp240-repo/sass/_button-styling.scss */
 h2 .accordion-link,
 h3 .accordion-link {
