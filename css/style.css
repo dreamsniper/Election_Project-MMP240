@@ -938,41 +938,67 @@ header {
     margin: 0;
     margin-top: .5em; }
 
-/* line 3, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
-.index .main-content {
+/* line 2, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+.index {
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   float: left;
   padding-left: 1.38889%;
-  padding-right: 1.38889%;
-  background-color: #476388;
-  padding: 1.38889%; }
+  padding-right: 1.38889%; }
   /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
-  .index .main-content:after {
+  .index:after {
     content: " ";
     display: block;
     clear: both; }
-  /* line 8, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
-  .index .main-content article {
-    background-color: #ebe0cd;
-    margin: 1.38889%; }
-  /* line 12, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
-  .index .main-content .deadline-content {
-    clear: both;
+  /* line 5, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+  .index .top {
     width: 100%;
     float: left;
     padding-left: 1.38889%;
     padding-right: 1.38889%;
-    background-color: darkblue; }
-    /* line 15, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
-    .index .main-content .deadline-content p {
-      color: #fff; }
-  /* line 19, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
-  .index .main-content .general-election-information {
-    background-color: #fff;
+    text-align: center;
     padding: 1.38889%; }
+  /* line 10, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+  .index .main-content {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+    background-color: #476388;
+    padding: 1.38889%; }
+    /* line 12, /Users/steventaveras/Desktop/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+    .index .main-content:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    /* line 15, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+    .index .main-content article {
+      background-color: #ebe0cd;
+      margin: 1.38889%; }
+    /* line 19, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+    .index .main-content .deadline-content {
+      clear: both;
+      width: 100%;
+      float: left;
+      padding-left: 1.38889%;
+      padding-right: 1.38889%;
+      background-color: darkblue; }
+      /* line 22, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+      .index .main-content .deadline-content p {
+        color: #fff; }
+    /* line 26, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+    .index .main-content .general-election-information {
+      background-color: #fff;
+      padding: 1.38889%; }
+    @media only screen and (min-width: 45em) {
+      /* line 31, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+      .index .main-content h1 {
+        text-align: center; } }
 
 /* ============================
 * NAVIGATION
