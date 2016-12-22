@@ -282,6 +282,7 @@ header {
         }
     .article-content {
         background-color: $palette1;
+        padding: gutter();
     }
         .deadline-content {
                 @include span(12 break);
@@ -290,4 +291,22 @@ header {
                     color: #fff;
                 }
             }
+    @media only screen and (min-width: 45em){
+        ol {
+                @include container;
+                @include span (12);
+                margin-left: 1em;
+            }
+            h1,
+            h2,
+            h3,
+            h4 {
+                @include span(12);
+                text-align: center;
+                clear: both;
+            }
+            p {
+                @include span(12);
+            }
+    }
 }

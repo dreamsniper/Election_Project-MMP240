@@ -37,6 +37,7 @@
                 @include span(6);
                 width: 70%;
                 height: 70%;
+                margin: 0;
             }
             .candidate-description {
                 padding: 0;
@@ -96,7 +97,6 @@
             }
         } //end of media query=====================
         .article-content {
-            clear: both;
             li {
                 clear: both;
                 margin-left: gutter();
