@@ -969,6 +969,10 @@ header {
     /* line 15, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
     .index .main-content .deadline-content p {
       color: #fff; }
+  /* line 19, /Users/steventaveras/Desktop/mmp240-repo/sass/_page-index.scss */
+  .index .main-content .general-election-information {
+    background-color: #fff;
+    padding: 1.38889%; }
 
 /* ============================
 * NAVIGATION
