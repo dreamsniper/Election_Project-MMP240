@@ -2,7 +2,6 @@ h2 .accordion-link,
 h3 .accordion-link {
     background-color: lighten($oldpride, 45%);
     padding: .25em;
-    width: 100%;
 }
 
 h2 .accordion-link:hover,
@@ -34,7 +33,6 @@ h3 .accordion-link:hover {
 }
 
 button {
-    display: block;
     background-color: white;
     margin: 1em;
 }

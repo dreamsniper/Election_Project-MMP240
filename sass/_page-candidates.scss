@@ -2,10 +2,11 @@
 .candidates {
     @include container; //candidates container
     .main-content {
-        @include container;
-        @include span(12);
-        background-color: $dustinthewind;
-        padding: gutter();
+        .name {
+                font-family: 'Crimson Text', serif;
+                font-weight: 700;
+                color: #ff0000;
+            }
         .party {
             font-weight: 400;
             font-style: italic;
@@ -28,6 +29,7 @@
             font-weight: 700;
             font-size: 1em;
         }
+
         //media query for larger screen size===============
         @media only screen and (min-width: 45em) {
             -webkit-box-sizing: border-box;
@@ -74,35 +76,9 @@
                     margin-right: 20%;
                 }
             }
-            ol {
-                @include container;
-                @include span (12);
-                margin-left: 1em;
-            }
-            h1,
-            h2,
-            h3,
-            h4 {
-                @include span(12);
-                text-align: center;
-                clear: both;
-            }
-            p {
-                @include span(12);
-            }
-            .name {
-                font-family: 'Crimson Text', serif;
-                font-weight: 700;
-                color: #ff0000;
-            }
         } //end of media query=====================
-        .article-content {
-            li {
-                clear: both;
-                margin-left: gutter();
-            }
-        }
-        //end of article-content
+
+
         .federal {
             @include span (12);
             @include clearfix;

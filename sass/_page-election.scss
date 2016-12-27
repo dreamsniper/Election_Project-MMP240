@@ -2,30 +2,5 @@
 .election-day{
     @include container;
     .main-content{
-        @include container;
-        @include span(12);
-        background-color: $waterserpents;
-        padding: gutter();
-        article{
-            background-color: $dustinthewind;
-            margin: gutter();
-        }
-        .article-content{
-            background-color: white;
-        }
-        .deadline-content {
-                @include span(12 break);
-                background-color: darkblue;
-                color: $palette1;
-            }
-        .general-election-information {
-            background-color: #fff;
-            padding: gutter();
-        }
-        @media only screen and (min-width: 45em) {
-             h1 {
-                text-align: center;
-            }
-        }
     }
 }

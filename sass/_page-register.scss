@@ -1,21 +1,6 @@
 //Styles for register page
 .register {
     .main-content {
-        @include container;
-        @include span(12);
-        background-color: $waterserpents;
-        padding: gutter();
-        article{
-            background-color: $dustinthewind;
-            margin: gutter();
-        }
-        .deadline-content {
-                @include span(12 break);
-                background-color: darkblue;
-                p {
-                    color: #fff;
-                }
-            }
         //media query for larger screen size
         @media only screen and (min-width: 45em) {
             ol {
